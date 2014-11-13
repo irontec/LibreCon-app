@@ -1,0 +1,5 @@
+ALTER TABLE `Meeting` DROP FOREIGN KEY `Meeting_ibfk_2`;
+ALTER TABLE `Meeting` DROP FOREIGN KEY `Meeting_ibfk_1`;
+
+ALTER TABLE `Meeting` ADD CONSTRAINT `Meeting_ibfk_2` FOREIGN KEY (`receiver`) REFERENCES `Assistants` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `Meeting` ADD CONSTRAINT `Meeting_ibfk_1` FOREIGN KEY (`sender`) REFERENCES `Assistants` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;

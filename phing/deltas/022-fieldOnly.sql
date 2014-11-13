@@ -1,0 +1,1 @@
+ALTER TABLE `Assistants` ADD UNIQUE(`secretHash`);

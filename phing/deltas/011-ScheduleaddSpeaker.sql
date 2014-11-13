@@ -1,0 +1,5 @@
+-- ALTER TABLE `Schedule` ADD `idSpeaker` MEDIUMINT(8) UNSIGNED NULL DEFAULT NULL AFTER `finishDateTime`;
+
+-- ALTER TABLE `Schedule` ADD INDEX(`idSpeaker`);
+
+-- ALTER TABLE `Schedule` ADD FOREIGN KEY (`idSpeaker`) REFERENCES `Speaker`(`id`) ON DELETE SET NULL ON UPDATE SET NULL;

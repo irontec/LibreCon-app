@@ -1,0 +1,40 @@
+CREATE TABLE IF NOT EXISTS `Links` (
+`id` mediumint(8) unsigned NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `type` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='[entity]' AUTO_INCREMENT=1 ;
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `Links`
+--
+ALTER TABLE `Links`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `Links`
+--
+ALTER TABLE `Links`
+MODIFY `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE `Schedule` ADD `link1` VARCHAR(255) NULL DEFAULT NULL , ADD `link1Type` MEDIUMINT(8) UNSIGNED NULL DEFAULT NULL , ADD `link2` VARCHAR(255) NULL DEFAULT NULL , ADD `link2Type` MEDIUMINT(8) UNSIGNED NULL DEFAULT NULL , ADD `link3` VARCHAR(255) NULL DEFAULT NULL , ADD `link3Type` MEDIUMINT(8) UNSIGNED NULL DEFAULT NULL , ADD `link4` VARCHAR(255) NULL DEFAULT NULL , ADD `link4Type` MEDIUMINT(8) UNSIGNED NULL DEFAULT NULL ;
+
+ALTER TABLE `Schedule` ADD INDEX(`link1Type`);
+
+ALTER TABLE `Schedule` ADD INDEX(`link2Type`);
+
+ALTER TABLE `Schedule` ADD INDEX(`link3Type`);
+
+ALTER TABLE `Schedule` ADD INDEX(`link4Type`);
+
+ALTER TABLE `Schedule` ADD FOREIGN KEY (`link1Type`) REFERENCES `Links`(`id`) ON DELETE SET NULL ON UPDATE SET NULL; 
+ALTER TABLE `Schedule` ADD FOREIGN KEY (`link2Type`) REFERENCES `Links`(`id`) ON DELETE SET NULL ON UPDATE SET NULL; 
+ALTER TABLE `Schedule` ADD FOREIGN KEY (`link3Type`) REFERENCES `Links`(`id`) ON DELETE SET NULL ON UPDATE SET NULL; 
+ALTER TABLE `Schedule` ADD FOREIGN KEY (`link4Type`) REFERENCES `Links`(`id`) ON DELETE SET NULL ON UPDATE SET NULL;
