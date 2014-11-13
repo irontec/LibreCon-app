@@ -1,0 +1,124 @@
+/*
+ Localizable.strings
+ librecon
+ 
+ Created by Sergio Garcia on 15/09/14.
+ Copyright (c) 2014 Sergio Garcia. All rights reserved.
+ */
+
+//EN
+
+//GLOBALES
+"SI" = "Yes";
+"NO" = "No";
+"VER" = "See";
+"CERRAR" = "Close";
+"Y" = "and";
+"VER_MAS" = "See more";
+"BUSCAR" = "Search";
+
+//MENU
+"AGENDA" = "Schedule";
+"ASISTENTES" = "Attendees";
+"REUNIONES" = "Meetings";
+"UBICACIONES" = "Locations";
+"PATROCINADORES" = "Sponsors";
+"PHOTOCALL" = "Photo Call";
+"CERRAR_SESION" = "Close session?";
+"ACERCADE" = "About";
+//CARGANDO
+"CARGANDO" = "Loading...";
+"LOGIN" = "Log in...";
+"LOGIN_ERROR" = "An error has occurred...";
+"SOLICITAR_CODIGO" = "Requesting code..";
+"SOLICITAR_CODIGO_OK" = "Code sent successfully.";
+"SOLICITAR_CODIGO_KO" = "An error has occurred when sending code, try again.";
+
+//VARIOS
+"ATRAS" = "Back";
+
+"NO_DATA_SCHEDULE" = "There are no presentations right now.";
+"NO_DATA_ASSISTANT" = "No available attendees at this moment.";
+"NO_DATA_LOCATION" = "No information about special locations at this moment.";
+"NO_DATA_MEETING" = "You have no meetings at this moment. Remember you can ask for them at Attendees section.";
+"NO_DATA_SPONSOR" = "No information available at this moment.";
+
+//LOGIN
+"BIENVENIDA" = "Welcome to LibreCon'14";
+"TITULO_CODIGO" = "Access code";
+"ENTRAR" = "Get in";
+"CANCELAR" = "Cancel";
+"RECUPERAR_CODIGO" = "Recover code";
+"COMPROBAR_CODIGO" = "Check";
+"INVITADO" = "Guest";
+"MENSAJE_AYUDA_USUARIO" = "To get into the application it is neccessary to insert the code shown in the email we sent you before the event began. If you don't have one, you can log in as invited or check in as attendee at the LibreCon website.";
+"MENSAJE_AYUDA_SOLICITAR_CODIGO" = "Insert the email address you used to log in so we can send you your access code.";
+"MENSAJE_AYUDA_USUARIO_INVITADO" = "Ops! It seems you just found a site in the application where access code is required to be used.\n\nIf you have registered through the website to attend LibreCon, you'll need to have the code in your email address account, otherwise, do the check in through the website. It's quick and easy!";
+
+//AYUDA CODIGO
+"AYUDA_CODIGO" = "Code";//T√≠tulo superior
+
+//AGENDA
+"DIA" = "Day";
+"PONENTES" = "Speakers:";
+"TAGS" = "Tags:";
+"ENLACES" = "Links:";
+"DIA_SELECCIONADO" = "Day %d";
+
+//SPEAKER
+"INFORMACION" = "Information:";
+
+//ASISTENTES
+"SOLICITAR_REUNION" = "Request a meeting";
+"TIENE_INTERES" = "He/She is interested in:";
+"MEETING_POINT" = "Where: Meeting point";
+
+//UBICACIONES
+"TXOKOS" = "Txokos";
+"EXPOSITORES" = "Exhibitors";
+
+//REUNIONES
+"PENDIENTES" = "Pendings";
+"ACEPTADAS" = "Accepted";
+"CANCELADAS" = "Canceled";
+
+"CREANDO_REUNION" = "Requesting meeting...";
+"CREANDO_REUNION_OK" = "Meeting successfuly requested.";
+"CREANDO_REUNION_ERROR" = "An error has occurred, try again.";
+"CREANDO_REUNION_DUPLICADA_ENVIADA" = "You already sent a request to this person.";
+"CREANDO_REUNION_DUPLICADA_RECIBIDA" = "The attendee sent you a request before, answer to it through Meetings site";
+
+"CUANDO" = "When do you want to meet?";
+"AHORA" = "Right now";
+"MEDIAHORA" = "In half an hour";
+"HORA" = "In an hour";
+
+"FECHA_DE_CREACION" = "Creation date:";
+"FECHA_DE_RESPUESTA" = "Answer date:";
+
+"SHARE_DEFAULT" = "Do you want to share any information?";
+"SHARE_ACCEPT" = "Shared information:";
+"EMAIL" = "Email";
+"TELEFONO" = "Phone";
+
+"RECHAZAR" = "Reject";
+"ACEPTAR" = "Accept";
+
+
+//CELDAS
+//Accept
+"ESTADO" = "State";
+"FECHA" = "Creation date";
+"FECHA_RESPUESTA" = "Answer date";
+"SHARE_INFO_SEND" = "Sent information";
+"SHARE_INFO_RECEIVED" = "Received information";
+"SOLICITANTE" = "From";
+"DESTINATARIO" = "To";
+"CUANDO_CELL" = "When";
+"TU" = "You";
+
+"ACEPTADA" = "Accepted";
+"PENDIENTE" = "Pending";
+"CANCELADA" = "Canceled";
+"SHARE_TELEFONO" = "phone";
+"SHARE_EMAIL" = "email";

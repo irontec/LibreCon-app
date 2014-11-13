@@ -1,0 +1,17 @@
+//
+//  TagCollectionViewCell.h
+//  librecon
+//
+//  Created by Sergio Garcia on 06/10/14.
+//  Copyright (c) 2014 Sergio Garcia. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface TagCollectionViewCell : UICollectionViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *lblTagName;
+@property (weak, nonatomic) IBOutlet UIView *viewTagColor;
+@property (weak, nonatomic) IBOutlet UIView *viewBackground;
+
+@end

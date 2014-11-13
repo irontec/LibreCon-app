@@ -1,0 +1,125 @@
+/* 
+  Localizable.strings
+  librecon
+
+  Created by Sergio Garcia on 15/09/14.
+  Copyright (c) 2014 Sergio Garcia. All rights reserved.
+*/
+
+//ES
+
+//GLOBALES
+"SI" = "Si";
+"NO" = "No";
+"VER" = "Ver";
+"CERRAR" = "Cerrar";
+"Y" = "y";
+"VER_MAS" = "Ver más";
+"BUSCAR" = "Buscar";
+
+//MENU
+"AGENDA" = "Agenda";
+"ASISTENTES" = "Asistentes";
+"REUNIONES" = "Reuniones";
+"UBICACIONES" = "Ubicaciones";
+"PATROCINADORES" = "Patrocinadores";
+"PHOTOCALL" = "Photo Call";
+"CERRAR_SESION" = "¿Cerrar sesión?";
+"ACERCADE" = "Acerca de";
+
+//CARGANDO
+"CARGANDO" = "Cargando...";
+"LOGIN" = "Iniciando sesión...";
+"LOGIN_ERROR" = "Ha ocurrido un error...";
+"SOLICITAR_CODIGO" = "Solicitando código..";
+"SOLICITAR_CODIGO_OK" = "Código enviado correctamente.";
+"SOLICITAR_CODIGO_KO" = "Ha ocurrido un error al enviar el código, inténtelo de nuevo.";
+
+//VARIOS
+"ATRAS" = "Atrás";
+
+"NO_DATA_SCHEDULE" = "No hay ponencias en este momento.";
+"NO_DATA_ASSISTANT" = "No hay asistentes disponibles en este momento.";
+"NO_DATA_LOCATION" = "No hay datos sobre localizaciones especiales en este momento.";
+"NO_DATA_MEETING" = "No tienes reuniones en este momento. Recuerda que puedes solitarlas desde la sección Asistentes.";
+"NO_DATA_SPONSOR" = "No hay datos disponibles en este momento.";
+
+//LOGIN
+"BIENVENIDA" = "Bienvenido a la LibreCon'14";
+"TITULO_CODIGO" = "Código de acceso";
+"ENTRAR" = "Entrar";
+"CANCELAR" = "Cancelar";
+"RECUPERAR_CODIGO" = "Recuperar código";
+"COMPROBAR_CODIGO" = "Comprobar";
+"INVITADO" = "Invitado";
+"MENSAJE_AYUDA_USUARIO" = "Para poder acceder a la aplicación es necesario introducir el código que aparece en el email que te enviamos antes del comienzo del evento. Si no dispones de uno puedes entrar como invitado o registrarte como asistente en la web de la LibreCon.";
+"MENSAJE_AYUDA_SOLICITAR_CODIGO" = "Introduce la dirección de email con la que te has registrado en la LibreCon para poder reenviarte tu código de acceso.";
+"MENSAJE_AYUDA_USUARIO_INVITADO" = "¡Ops! Parece que has encontrado una parte de la aplicación que requiere de un código de acceso para poder usarse.\n\nSi te has registrado en la web para asistir a la LibreCon deberías de tener el código en tu cuenta de correo electrónico, de lo contrario, inscríbete en la web. ¡Es rápido y sencillo!";
+
+//AYUDA CODIGO
+"AYUDA_CODIGO" = "Código";//Título superior
+
+//AGENDA
+"DIA" = "Día";
+"PONENTES" = "Ponentes:";
+"TAGS" = "Tags:";
+"ENLACES" = "Enlaces:";
+"DIA_SELECCIONADO" = "Día %d";
+
+//SPEAKER
+"INFORMACION" = "Información:";
+
+//ASISTENTES
+"SOLICITAR_REUNION" = "Solicitar reunión";
+"TIENE_INTERES" = "Tiene interés en:";
+"MEETING_POINT" = "Lugar: Meeting point";
+
+//UBICACIONES
+"TXOKOS" = "Txokos";
+"EXPOSITORES" = "Expositores";
+
+//REUNIONES
+"PENDIENTES" = "Pendientes";
+"ACEPTADAS" = "Aceptadas";
+"CANCELADAS" = "Canceladas";
+
+"CREANDO_REUNION" = "Solicitando reunión...";
+"CREANDO_REUNION_OK" = "Reunión solicitada correctamente.";
+"CREANDO_REUNION_ERROR" = "Ha ocurrido un error, vuelva a intentarlo.";
+"CREANDO_REUNION_DUPLICADA_ENVIADA" = "Ya ha enviado una solicitud a esta persona.";
+"CREANDO_REUNION_DUPLICADA_RECIBIDA" = "El asistente le envío una solicitud con anterioridad, responda a ella desde la sección de Reuniones.";
+
+"CUANDO" = "¿Cuando quieres reunirte?";
+"AHORA" = "Ahora mismo";
+"MEDIAHORA" = "En media hora";
+"HORA" = "En una hora";
+
+"FECHA_DE_CREACION" = "Fecha de creación:";
+"FECHA_DE_RESPUESTA" = "Fecha de respuesta:";
+
+"SHARE_DEFAULT" = "¿Quieres compartir alguna información?";
+"SHARE_ACCEPT" = "Datos compartidos:";
+"EMAIL" = "Email";
+"TELEFONO" = "Teléfono";
+
+"RECHAZAR" = "Rechazar";
+"ACEPTAR" = "Aceptar";
+
+
+//CELDAS
+//Accept
+"ESTADO" = "Estado";
+"FECHA" = "Fecha creación";
+"FECHA_RESPUESTA" = "Fecha respuesta";
+"SHARE_INFO_SEND" = "Datos enviados";
+"SHARE_INFO_RECEIVED" = "Datos recibidos";
+"SOLICITANTE" = "De";
+"DESTINATARIO" = "Para";
+"CUANDO_CELL" = "Cuando";
+"TU" = "Tú";
+
+"ACEPTADA" = "Aceptada";
+"PENDIENTE" = "Pendiente";
+"CANCELADA" = "Cancelada";
+"SHARE_TELEFONO" = "teléfono";
+"SHARE_EMAIL" = "email";

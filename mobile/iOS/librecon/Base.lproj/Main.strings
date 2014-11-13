@@ -1,0 +1,24 @@
+
+/* Class = "IBUILabel"; text = "Attendees"; ObjectID = "JD9-oJ-3Vi"; */
+"JD9-oJ-3Vi.text" = "Attendees";
+
+/* Class = "IBUINavigationItem"; title = "Agenda"; ObjectID = "U7B-LS-BJP"; */
+"U7B-LS-BJP.title" = "Agenda";
+
+/* Class = "IBUINavigationItem"; title = "Books"; ObjectID = "Whg-11-j7a"; */
+"Whg-11-j7a.title" = "Books";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "f7q-Nn-tSl"; */
+"f7q-Nn-tSl.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = "Attendees"; ObjectID = "khP-s4-aHR"; */
+"khP-s4-aHR.title" = "Attendees";
+
+/* Class = "IBUILabel"; text = "holass"; ObjectID = "qW4-jY-59m"; */
+"qW4-jY-59m.text" = "holass";
+
+/* Class = "IBUILabel"; text = "Books"; ObjectID = "xfE-3n-y8M"; */
+"xfE-3n-y8M.text" = "Books";
+
+/* Class = "IBUILabel"; text = "Agenda"; ObjectID = "xic-W5-Gxh"; */
+"xic-W5-Gxh.text" = "Agenda";

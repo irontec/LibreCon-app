@@ -1,0 +1,126 @@
+/*
+ Localizable.strings
+ librecon
+ 
+ Created by Sergio Garcia on 15/09/14.
+ Copyright (c) 2014 Sergio Garcia. All rights reserved.
+ */
+
+//EU
+
+//GLOBALES
+"SI" = "Bai";
+"NO" = "Ez";
+"VER" = "Ikusi";
+"CERRAR" = "Itxi";
+"Y" = "eta";
+"VER_MAS" = "Gehiago ikusi";
+"BUSCAR" = "Bilatu";
+
+//MENU
+"AGENDA" = "Agenda";
+"ASISTENTES" = "Bisitariak";
+"REUNIONES" = "Bilerak";
+"UBICACIONES" = "Kokapenak";
+"PATROCINADORES" = "Babesleak";
+"PHOTOCALL" = "Photo Call-a";
+"CERRAR_SESION" = "Sesioa itxi nahi al duzu?";
+"ACERCADE" = "Honi buruz";
+
+//CARGANDO
+"CARGANDO" = "Kargatzen...";
+"LOGIN" = "Sesioa berrabiarazten...";
+"LOGIN_ERROR" = "Akats bat suertatu da...";
+"SOLICITAR_CODIGO" = "kodea eskatzen..";
+"SOLICITAR_CODIGO_OK" = "Ongi bidalitako kodea.";
+"SOLICITAR_CODIGO_KO" = "Akats bat suertatu da kodea bidaltzerakoan, saia zaitez berriro.";
+
+//VARIOS
+"ATRAS" = "Atzera";
+
+"NO_DATA_SCHEDULE" = "Ez dago ponentziarik une honetan.";
+"NO_DATA_ASSISTANT" = "Ez dago bisitari eskuragarririk une honetan.";
+"NO_DATA_LOCATION" = "Ez dago daturik kokapen bereziren inguruan une honetan.";
+"NO_DATA_MEETING" = "Ez daukazu bilerarik une honetan. Gogora ezazu Bisitariak atalean eska ditzakezula.";
+"NO_DATA_SPONSOR" = "Une honetan ez dago datu eskuragarririk.";
+
+//LOGIN
+"BIENVENIDA" = "Ongi etorri LibreCon'14ra";
+"TITULO_CODIGO" = "Sarbide kodea";
+"ENTRAR" = "Sartu";
+"CANCELAR" = "Ezeztatu";
+//"CANCELAR" = "Bertan behera utzi";
+"RECUPERAR_CODIGO" = "Kodea berreskuratu";
+"COMPROBAR_CODIGO" = "Egiaztatu";
+"INVITADO" = "Gonbidatua";
+"MENSAJE_AYUDA_USUARIO" = "Aplikaziora sartu ahal izateko beharrezkoa da ekitaldia hasi aurretik zure posta elektronikora bidali genizun kodea sartzea. Ez izatekotan gonbidatu gisa sar zaitezke edo bisitari moduan LibreConeko webgunean.";
+"MENSAJE_AYUDA_SOLICITAR_CODIGO" = "Sar zaitez LibreConen erregistratu zaren posta elektroniko berberarekin zure sarbide kodea berriro jaso ahal izateko.";
+"MENSAJE_AYUDA_USUARIO_INVITADO" = "Ai! Dirudienez sarbidea erabiltzeko beharrezkoa den kode bat eskatzen duen aplikazioaren atala topatu duzu.\n\nLibreConera joateko webgunean erregistratu bazara zure posta elektronikoan izan beharko duzu zure kodea, bestela, webgunean eman ezazu izena. Azkarra eta erraza da!";
+
+//AYUDA CODIGO
+"AYUDA_CODIGO" = "Kodea";//Título superior
+
+//AGENDA
+"DIA" = "Eguna";
+"PONENTES" = "Hizlariak:";
+"TAGS" = "Tag-ak:";
+"ENLACES" = "Loturak:";
+"DIA_SELECCIONADO" = "%d Eguna";
+
+//SPEAKER
+"INFORMACION" = "Informazioa:";
+
+//ASISTENTES
+"SOLICITAR_REUNION" = "Bilera eskatu";
+"TIENE_INTERES" = "Hurrengoan dauka interesa:";
+"MEETING_POINT" = "Tokia: Meeting point";
+
+//UBICACIONES
+"TXOKOS" = "Txokoak";
+"EXPOSITORES" = "Erakustokiak";
+
+//REUNIONES
+"PENDIENTES" = "Zain";
+"ACEPTADAS" = "Onartuak";
+"CANCELADAS" = "Deuseztatuak";
+
+"CREANDO_REUNION" = "Bilera eskatzen...";
+"CREANDO_REUNION_OK" = "Ongi eskatutako bilera.";
+"CREANDO_REUNION_ERROR" = "Akats bat suertatu da, saia zaitez berriro.";
+"CREANDO_REUNION_DUPLICADA_ENVIADA" = "Jadanik eskaera bat bidali diozu pertsona honi";
+"CREANDO_REUNION_DUPLICADA_RECIBIDA" = "Bisitariak aurretik bidali dizu esakera, Bilerak ataletik erantzun iezaiozu.";
+
+"CUANDO" = "Noiz bildu nahi zara?";
+"AHORA" = "Une honetan";
+"MEDIAHORA" = "Ordu erdi batean";
+"HORA" = "Ordu batean";
+
+"FECHA_DE_CREACION" = "Sorrera data:";
+"FECHA_DE_RESPUESTA" = "Erantzun data:";
+
+"SHARE_DEFAULT" = "Informazioren bat partekatu nahi ahal duzu?";
+"SHARE_ACCEPT" = "Banaturiko datuak:";
+"EMAIL" = "Emaila";
+"TELEFONO" = "Telefonoa";
+
+"RECHAZAR" = "Deuseztatu";
+"ACEPTAR" = "Onartu";
+
+
+//CELDAS
+//Accept
+"ESTADO" = "Egoera";
+"FECHA" = "Sorrera data";
+"FECHA_RESPUESTA" = "Erantzun data";
+"SHARE_INFO_SEND" = "Bidalitako datuak";
+"SHARE_INFO_RECEIVED" = "Jasotako datuak";
+"SOLICITANTE" = "Eskatzailea";
+"DESTINATARIO" = "Norentzat";
+"CUANDO_CELL" = "Noiz";
+"TU" = "Zu";
+
+"ACEPTADA" = "Onartua";
+"PENDIENTE" = "Zain";
+"CANCELADA" = "Deseztatuta";
+"SHARE_TELEFONO" = "telefonoa";
+"SHARE_EMAIL" = "emaila";
