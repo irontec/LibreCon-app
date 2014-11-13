@@ -1,0 +1,33 @@
+production: 
+  class: \Librecon\Model\AutoKlearsInstallLog
+  fields: 
+    success: 
+      title: _('Success')
+      type: select
+      required: true
+      source: 
+        data: inline
+        values: 
+          '0': 
+            title: _("No")
+          '1': 
+            title: _("Yes")
+      default: true
+    date: 
+      title: ngettext('Date', 'Dates', 1)
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+    appliedBy: 
+      title: _('Applied by')
+      type: text
+      required: true
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

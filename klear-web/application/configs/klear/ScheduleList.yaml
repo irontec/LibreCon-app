@@ -1,0 +1,244 @@
+#include conf.d/mapperList.yaml
+#include conf.d/actions.yaml
+#include TagsList.yaml
+
+fixedPositions:
+  - &fixedPositionsForScheduele
+    time:
+      fields:
+        targetDate: true
+        startTime: true
+        finishTime: true
+    link1:
+      fields:
+        link1: true
+        link1Type: true
+    link2:
+      fields:
+        link2: true
+        link2Type: true
+    link3:
+      fields:
+        link3: true
+        link3Type: true
+    link4:
+      fields:
+        link4: true
+        link4Type: true
+    multiselect:
+      fields:
+        RelScheduleSpeaker: true
+        RelTagScheduele: true
+        
+  - &fixedPositionsForSpeaker
+    data:
+      fields:
+        name: true
+        company: true
+        picture: true
+    link1:
+      fields:
+        link1: true
+        link1Type: true
+    link2:
+      fields:
+        link2: true
+        link2Type: true
+    link3:
+      fields:
+        link3: true
+        link3Type: true
+    link4:
+      fields:
+        link4: true
+        link4Type: true
+        
+    multiselect:
+      fields:
+        RelScheduleSpeaker: true
+        RelTagScheduele: true
+        
+production: 
+  main: 
+    module: klearMatrix
+    defaultScreen: scheduleList_screen
+  screens: 
+    scheduleList_screen: &scheduleList_screenLink 
+      controller: list
+      pagination: 
+        items: 25
+      <<: *Schedule
+      title: _("List of %s %2s", ngettext('Schedule', 'Schedule(s)', 0), "[format| (%parent%)]")
+      fields: 
+        blacklist: 
+          lastModified: true
+          startTime: true
+          finishTime: true
+          description: true
+          targetDate: true
+          link1: true
+          link1Type: true
+          link2: true
+          link2Type: true
+          link3: true
+          link3Type: true
+          link4: true
+          link4Type: true
+          picture: true
+        order:
+          name: true
+        options: 
+          title: _("Options")
+          screens: 
+            scheduleEdit_screen: true
+          dialogs: 
+            scheduleDel_dialog: true
+          default: scheduleEdit_screen
+      options: 
+        title: _("Options")
+        screens: 
+          scheduleNew_screen: true
+        dialogs: 
+          scheduleDel_dialog: true
+    scheduleNew_screen: &scheduleNew_screenLink 
+      <<: *Schedule
+      controller: new
+      class: ui-silk-add
+      label: true
+      multiInstance: true
+      title: _("Add %s", ngettext('Schedule', 'Schedule(s)', 1))
+      shortcutOption: N
+      fields: 
+        blacklist: 
+          lastModified: true
+          startDateTime: true
+          finishDateTime: true
+          picture: true
+      fixedPositions:
+        <<: *fixedPositionsForScheduele
+    scheduleEdit_screen: &scheduleEdit_screenLink 
+      <<: *Schedule
+      controller: edit
+      class: ui-silk-pencil
+      label: false
+      title: _("Edit %s %2s", ngettext('Schedule', 'Schedule(s)', 1), "[format| (%item%)]")
+      fields: 
+        blacklist: 
+          lastModified: true
+          startDateTime: true
+          finishDateTime: true
+          picture: true
+      fixedPositions:
+        <<: *fixedPositionsForScheduele
+        
+    tagsNew_screen: 
+      <<: *tagsNew_screenLink 
+      
+    speakerNew_screen: 
+      <<: *Speaker
+      controller: new
+      class: ui-silk-add
+      label: true
+      multiInstance: true
+      title: _("Add %s", ngettext('Speaker', 'Speaker(s)', 1))
+      shortcutOption: N
+      fields: 
+        blacklist: 
+          lastModified: true
+          RelScheduleSpeaker: true
+      fixedPositions:
+        <<: *fixedPositionsForSpeaker
+      
+  dialogs: 
+    scheduleDel_dialog: &scheduleDel_dialogLink 
+      <<: *Schedule
+      controller: delete
+      class: ui-silk-bin
+      labelOption: false
+      title: _("Delete %s", ngettext('Schedule', 'Schedule(s)', 1))
+      description: _("Do you want to delete this %s?", ngettext('Schedule', 'Schedule(s)', 1))
+      message: _("%s successfully deleted.", ngettext('Schedule', 'Schedule(s)', 1))
+      multiItem: 1
+      labelOnList: 1
+  commands: 
+    PictureDownload_command: 
+      <<: *Schedule
+      controller: File
+      action: force-download
+      mainColumn: picture
+    PictureUpload_command: 
+      <<: *Schedule
+      controller: File
+      action: upload
+      mainColumn: picture
+    PicturePreview_command: 
+      <<: *Schedule
+      controller: File
+      action: preview
+      mainColumn: picture
+      
+    PictureDownload_command_speaker: 
+      <<: *Speaker
+      controller: File
+      action: force-download
+      mainColumn: picture
+    PictureUpload_command_speaker: 
+      <<: *Speaker
+      controller: File
+      action: upload
+      mainColumn: picture
+    PicturePreview_command_speaker: 
+      <<: *Speaker
+      controller: File
+      action: preview
+      mainColumn: picture
+    IconDownload_command: 
+      <<: *Schedule
+      controller: File
+      action: force-download
+      mainColumn: icon
+    IconUpload_command: 
+      <<: *Schedule
+      controller: File
+      action: upload
+      mainColumn: icon
+    IconPreview_command: 
+      <<: *Schedule
+      controller: File
+      action: preview
+      mainColumn: icon
+      
+    autocomplete_command:
+      <<: *Tags
+      controller: field-decorator
+      action: index
+      autocomplete:
+        mapperName: \Librecon\Mapper\Sql\Tags
+        label: name
+        fieldName:
+          fields:
+            - name
+          template: '%name%'
+        limit: 8
+        order: name_${lang}
+        
+    autocomplete_command_speaker:
+      <<: *Speaker
+      controller: field-decorator
+      action: index
+      autocomplete:
+        mapperName: \Librecon\Mapper\Sql\Speaker
+        label: name 
+        fieldName: 
+          fields:
+            - name
+            - company
+          template: '%name% [%company%]'
+        limit: 8 
+        order: name
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

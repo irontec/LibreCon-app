@@ -1,0 +1,122 @@
+<table id="agenda" border="1">
+    <thead>
+        <tr>
+            <th></th>
+<?php
+    $pendingRowSpans = array();
+    $commonIndex = false;
+    $this->locations = array('Sala Red Hat','Sala Open','Tech Space','Palacio Euskalduna');
+    foreach($this->locations as $idx => $location) {
+        if ($location == 'Palacio Euskalduna') {
+            $commonIndex = $idx;
+            continue;
+        }
+        echo '<th>' . $location .'</th>';
+        $pendingRowSpans[$location] = 1;
+    }
+    
+?>
+        </tr>
+    </thead>
+    
+<?php 
+    
+    $curDate = $this->minDate;
+    $commonLocation = array();
+    if ($commonIndex !== false) {
+        $commonLocation = $this->data[($this->locations[$commonIndex])];
+    }
+    
+    $pendingRowsCommon = 1;
+    
+    while ($curDate <= $this->maxDate) {
+        
+        $nextDate = clone $curDate;
+        $nextDate->add($this->interval);
+        
+        echo '<tr>';
+        echo '<td>' . $curDate->format("H:i") . '</td>';
+        
+        $curCommonLocation = current($commonLocation);
+        
+        if (isset($curCommonLocation['start']) && $curCommonLocation['start'] >= $curDate && $curCommonLocation['start'] < $nextDate) {
+            $pendingRowsCommon = 1;
+            $lastSlot = clone $nextDate;
+            while ($curCommonLocation['end'] > $lastSlot) {
+                $pendingRowsCommon++;
+                foreach($this->locations as $location) {
+                    
+                }
+                $lastSlot->add($this->interval);
+                
+            }
+            $extraClass = '';
+            if (preg_match("/oficial/i", $curCommonLocation['es_title'])) {
+                $extraClass = " agoficial";
+            } elseif (preg_match("/networking/i", $curCommonLocation['es_title'])) {
+                $extraClass = " agnetworking";
+            }
+
+          
+            echo '<td class="text-center'.$extraClass.'" rowspan="'.$pendingRowsCommon.'" data-title="'.$curCommonLocation['title'].'" colspan="'.(sizeof($this->locations) - 1).'">'.$curCommonLocation['title'].'</td>';
+            next($commonLocation);
+        } else {
+            if ($pendingRowsCommon > 1) {
+                $pendingRowsCommon--;
+            } else {
+                foreach($this->locations as $location) {
+                    if ($location == 'Palacio Euskalduna') {
+                        continue;
+                    }
+                    
+                    $talk = current($this->data[$location]);
+                    
+                    if ($talk['start'] >= $curDate && $talk['start'] < $nextDate) {
+        
+                        $lastSlot = clone $nextDate;
+                        $pendingRowSpans[$location] = 1;
+                        
+                        while ($talk['end'] > $lastSlot) {
+                            $pendingRowSpans[$location]++;
+                            $lastSlot->add($this->interval);
+                        }
+
+                        echo '<td data-title="'.$location.'" rowspan="'.$pendingRowSpans[$location].'">';
+                        echo '<span class="horario">' . $talk['start']->format("H:i") . ' - ' . $talk['end']->format("H:i") . '</span>';
+                        
+                        echo '<p class="ponencia"><a href="/conferencias/#'.$talk['slug'].'">' . $talk['title'].'</a></p>';
+  //                      echo '<p class="ponencia">' . $talk['title'].'</p>';
+
+                        foreach($talk['speakers'] as $speaker) {
+                            echo '<div class="ponente">';
+                            echo '<img alt="Ponente" src="'.$speaker['url'].'">';
+                            echo '<div>';
+                            echo '<p class="talker">' . $speaker['name'] . '</p>';
+                            echo '<p class="entidad">' . $speaker['company'] . '</p>';
+                            echo '</div></div>';
+                        }
+                        
+                        foreach($talk['tags'] as $tag) {
+                            echo '<span class="tag '. $tag['class'].'">' . $tag['name'].'</span>';
+                        }
+                        echo '</td>';
+                        next($this->data[$location]);
+                    } else {
+                        if ($pendingRowSpans[$location] == 1) {
+                            echo '<td class="empty"></td>';
+                        } else {
+                            $pendingRowSpans[$location]--;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+        echo '</tr>';
+        $curDate = $nextDate;
+    }
+?>
+
+
+</table>

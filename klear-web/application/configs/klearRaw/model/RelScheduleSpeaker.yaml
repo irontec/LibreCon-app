@@ -1,0 +1,36 @@
+production: 
+  class: \Librecon\Model\RelScheduleSpeaker
+  fields: 
+    idSchedule: 
+      title: _('Id schedule')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Schedule
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name_${lang}
+        'null': _("Unasigned")
+      default: true
+    idSpeaker: 
+      title: _('Id speaker')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Speaker
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

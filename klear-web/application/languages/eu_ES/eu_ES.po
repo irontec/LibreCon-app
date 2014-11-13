@@ -1,0 +1,1256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-22 14:44+0100\n"
+"PO-Revision-Date: 2014-10-02 11:00+0100\n"
+"Last-Translator: Victor <victor@irontec.com>\n"
+"Language-Team: victor@irontec.com\n"
+"Language: eu_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;translate;plural:1,2\n"
+"X-Poedit-Basepath: /home/victor/workspace/librecon/server/klear-web/"
+"application\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: languages/common-strings.php:6
+msgid "Login"
+msgstr "Erabiltzaile izena"
+
+#: languages/common-strings.php:7
+msgid "Username"
+msgstr "Erabiltzaile izena"
+
+#: languages/common-strings.php:8
+msgid "Email"
+msgid_plural "Emails"
+msgstr[0] "Emaila"
+msgstr[1] "Emailak"
+
+#: languages/common-strings.php:9
+msgid "Email address"
+msgid_plural "Email addresses"
+msgstr[0] "Helbidea"
+msgstr[1] "Helbideak"
+
+#: languages/common-strings.php:10
+msgid "Pass"
+msgstr "Pasahitza"
+
+#: languages/common-strings.php:11
+msgid "Password"
+msgid_plural "Passwords"
+msgstr[0] "Pasahitza"
+msgstr[1] "Pasahitzak"
+
+#: languages/common-strings.php:12
+msgid "User"
+msgid_plural "Users"
+msgstr[0] "Erabiltzailea"
+msgstr[1] "Erabiltzaileak"
+
+#: languages/common-strings.php:13
+msgid "Name"
+msgid_plural "Names"
+msgstr[0] "Izena"
+msgstr[1] "Izenak"
+
+#: languages/common-strings.php:14
+msgid "Surname"
+msgid_plural "Surnames"
+msgstr[0] "Abizena"
+msgstr[1] "Abizenak"
+
+#: languages/common-strings.php:15
+msgid "FirstName"
+msgstr "Izena"
+
+#: languages/common-strings.php:16
+msgid "Firstname"
+msgstr "Izena"
+
+#: languages/common-strings.php:17
+msgid "First name"
+msgstr "Izena"
+
+#: languages/common-strings.php:18
+msgid "LastName"
+msgstr "Abizena"
+
+#: languages/common-strings.php:19
+msgid "Lastname"
+msgstr "Abizena"
+
+#: languages/common-strings.php:20
+msgid "Last name"
+msgstr "Abizena"
+
+#: languages/common-strings.php:21
+msgid "PhoneNumber"
+msgid_plural "PhoneNumbers"
+msgstr[0] "Telefono zenbakia"
+msgstr[1] "Telefono zenbakiak"
+
+#: languages/common-strings.php:22
+msgid "Phonenumber"
+msgid_plural "Phonenumbers"
+msgstr[0] "Telefono zenbakia"
+msgstr[1] "Telefono zenbakiak"
+
+#: languages/common-strings.php:23
+msgid "Phone number"
+msgid_plural "Phone numbers"
+msgstr[0] "Telefono zenbakia"
+msgstr[1] "Telefono zenbakiak"
+
+#: languages/common-strings.php:24
+msgid "Address"
+msgid_plural "Addresses"
+msgstr[0] "Helbidea"
+msgstr[1] "Helbideak"
+
+#: languages/common-strings.php:25
+msgid "Street"
+msgid_plural "Streets"
+msgstr[0] "Kalea"
+msgstr[1] "Kaleak"
+
+#: languages/common-strings.php:26
+msgid "PostalCode"
+msgid_plural "PostalCodes"
+msgstr[0] "Posta kodea"
+msgstr[1] "Posta kodeak"
+
+#: languages/common-strings.php:27
+msgid "Postalcode"
+msgid_plural "Postalcodes"
+msgstr[0] "Posta kodea"
+msgstr[1] "Posta kodeak"
+
+#: languages/common-strings.php:28
+msgid "Postal code"
+msgid_plural "Postal codes"
+msgstr[0] "Posta kodea"
+msgstr[1] "Posta kodeak"
+
+#: languages/common-strings.php:29
+msgid "ZipCode"
+msgid_plural "ZipCodes"
+msgstr[0] "Posta kodea"
+msgstr[1] "Posta kodeak"
+
+#: languages/common-strings.php:30
+msgid "Zipcode"
+msgid_plural "Zipcodes"
+msgstr[0] "Posta kodea"
+msgstr[1] "Posta kodeak"
+
+#: languages/common-strings.php:31
+msgid "Zip code"
+msgid_plural "Zip codes"
+msgstr[0] "Posta kodea"
+msgstr[1] "Posta kodeak"
+
+#: languages/common-strings.php:32
+msgid "Province"
+msgid_plural "Provinces"
+msgstr[0] "Probintzia"
+msgstr[1] "Probintziak"
+
+#: languages/common-strings.php:33
+msgid "City"
+msgid_plural "Cities"
+msgstr[0] "Hiria"
+msgstr[1] "Hiriak"
+
+#: languages/common-strings.php:34
+msgid "State"
+msgid_plural "States"
+msgstr[0] "Estatua"
+msgstr[1] "Estatuak"
+
+#: languages/common-strings.php:35
+msgid "Country"
+msgid_plural "Countries"
+msgstr[0] "Herrialdea"
+msgstr[1] "Herrialdeak"
+
+#: languages/common-strings.php:36
+msgid "Account"
+msgid_plural "Accounts"
+msgstr[0] "Kontua"
+msgstr[1] "Kontuak"
+
+#: languages/common-strings.php:38
+msgid "Role"
+msgid_plural "Roles"
+msgstr[0] "Rola"
+msgstr[1] "Rolak"
+
+#: languages/common-strings.php:43
+msgid "File"
+msgid_plural "Files"
+msgstr[0] "Fitxategia"
+msgstr[1] "Fitxategiak"
+
+#: languages/common-strings.php:44
+msgid "Path"
+msgid_plural "Paths"
+msgstr[0] "Helbidea"
+msgstr[1] "Helbideak"
+
+#: languages/common-strings.php:45
+msgid "Size"
+msgid_plural "Sizes"
+msgstr[0] "Tamaina"
+msgstr[1] "Tamainak"
+
+#: languages/common-strings.php:46
+msgid "FileSize"
+msgstr "Fitxategi tamaina"
+
+#: languages/common-strings.php:47
+msgid "Filesize"
+msgstr "Fitxategi tamaina"
+
+#: languages/common-strings.php:48
+msgid "File size"
+msgstr "Fitxategi tamaina"
+
+#: languages/common-strings.php:49
+msgid "FilePath"
+msgstr "Fitxategi helbidea"
+
+#: languages/common-strings.php:50
+msgid "Filepath"
+msgstr "Fitxategi helbidea"
+
+#: languages/common-strings.php:51
+msgid "File path"
+msgstr "Fitxategi helbidea"
+
+#: languages/common-strings.php:52
+msgid "MimeType"
+msgid_plural "MimeTypes"
+msgstr[0] "Fitxategi mota"
+msgstr[1] "Fitxategi motak"
+
+#: languages/common-strings.php:53
+msgid "Mimetype"
+msgid_plural "Mimetypes"
+msgstr[0] "Fitxategi mota"
+msgstr[1] "Fitxategi motak"
+
+#: languages/common-strings.php:54
+msgid "Mime type"
+msgid_plural "Mime types"
+msgstr[0] "Fitxategi mota"
+msgstr[1] "Fitxategi motak"
+
+#: languages/common-strings.php:55
+msgid "BaseName"
+msgstr "Oinarrizko izena"
+
+#: languages/common-strings.php:56
+msgid "Base name"
+msgstr "Oinarrizko izena"
+
+#: languages/common-strings.php:57
+msgid "Image"
+msgid_plural "Images"
+msgstr[0] "Irudia"
+msgstr[1] "Irudiak"
+
+#: languages/common-strings.php:58
+msgid "ImageSize"
+msgstr "Irudi tamaina"
+
+#: languages/common-strings.php:59
+msgid "Imagesize"
+msgstr "Irudi tamaina"
+
+#: languages/common-strings.php:60
+msgid "Image size"
+msgstr "Irudi tamaina"
+
+#: languages/common-strings.php:61
+msgid "ImagePath"
+msgstr "Irudi helbidea"
+
+#: languages/common-strings.php:62
+msgid "Imagepath"
+msgstr "Irudi helbidea"
+
+#: languages/common-strings.php:63
+msgid "Image path"
+msgstr "Irudi helbidea"
+
+#: languages/common-strings.php:64
+msgid "Picture"
+msgid_plural "Pictures"
+msgstr[0] "Argazkia"
+msgstr[1] "Argazkiak"
+
+#: languages/common-strings.php:65
+msgid "PictureSize"
+msgstr "Argazki tamaina"
+
+#: languages/common-strings.php:66
+msgid "Picturesize"
+msgstr "Argazki tamaina"
+
+#: languages/common-strings.php:67
+msgid "Picture size"
+msgstr "Argazki tamaina"
+
+#: languages/common-strings.php:68
+msgid "PicturePath"
+msgstr "Argazki helbidea"
+
+#: languages/common-strings.php:69
+msgid "Picturepath"
+msgstr "Argazki helbidea"
+
+#: languages/common-strings.php:70
+msgid "Picture path"
+msgstr "Argazki helbidea"
+
+#: languages/common-strings.php:75
+msgid "Active"
+msgstr "Aktiboa"
+
+#: languages/common-strings.php:76
+msgid "Status"
+msgid_plural "Statuses"
+msgstr[0] "Egoera"
+msgstr[1] "Egoerak"
+
+#: languages/common-strings.php:77
+msgid "CreatedOn"
+msgstr "Sortua"
+
+#: languages/common-strings.php:78
+msgid "Createdon"
+msgstr "Sortua"
+
+#: languages/common-strings.php:79
+msgid "Created on"
+msgstr "Sortua"
+
+#: languages/common-strings.php:80
+msgid "UpdatedOn"
+msgstr "Aldatua"
+
+#: languages/common-strings.php:81
+msgid "Updatedon"
+msgstr "Aldatua"
+
+#: languages/common-strings.php:82
+msgid "Updated on"
+msgstr "Aldatua"
+
+#: languages/common-strings.php:83
+msgid "StartTime"
+msgstr "Hasiera"
+
+#: languages/common-strings.php:84
+msgid "Starttime"
+msgstr "Hasiera"
+
+#: languages/common-strings.php:85
+msgid "Start time"
+msgstr "Hasiera"
+
+#: languages/common-strings.php:86
+msgid "EndTime"
+msgstr "Amaiera"
+
+#: languages/common-strings.php:87
+msgid "Endtime"
+msgstr "Bukaera data"
+
+#: languages/common-strings.php:88
+msgid "End time"
+msgstr "Bukaera data"
+
+#: languages/common-strings.php:89
+msgid "Start"
+msgstr "Hasiera"
+
+#: languages/common-strings.php:90
+msgid "End"
+msgstr "Amaiera"
+
+#: languages/common-strings.php:91
+msgid "Date"
+msgid_plural "Dates"
+msgstr[0] "Data"
+msgstr[1] "Datak"
+
+#: languages/common-strings.php:92
+msgid "Time"
+msgid_plural "Times"
+msgstr[0] "Denbora"
+msgstr[1] "Denborak"
+
+#: languages/common-strings.php:93
+msgid "Interval"
+msgid_plural "Intervals"
+msgstr[0] "Tartea"
+msgstr[1] "Tarteak"
+
+#: languages/common-strings.php:94
+msgid "Identifier"
+msgid_plural "Identifiers"
+msgstr[0] "Identifikatzailea"
+msgstr[1] "Identifikatzaileak"
+
+#: languages/common-strings.php:95
+msgid "Iden"
+msgid_plural "Idens"
+msgstr[0] "Identifikatzailea"
+msgstr[1] "Identifikatzaileak"
+
+#: languages/common-strings.php:96
+msgid "Order"
+msgid_plural "Orders"
+msgstr[0] "Ordena"
+msgstr[1] "Ordenak"
+
+#: languages/common-strings.php:97
+msgid "Value"
+msgid_plural "Values"
+msgstr[0] "Balioa"
+msgstr[1] "Balioak"
+
+#: languages/common-strings.php:98
+msgid "Title"
+msgid_plural "Titles"
+msgstr[0] "Izenburua"
+msgstr[1] "Izenburuak"
+
+#: languages/common-strings.php:99
+msgid "Subtitle"
+msgid_plural "Subtitles"
+msgstr[0] "Azpi izenburua"
+msgstr[1] "Azpi izenburuak"
+
+#: languages/common-strings.php:100
+msgid "Intro"
+msgid_plural "Intros"
+msgstr[0] "Sarrera"
+msgstr[1] "Sarrerak"
+
+#: languages/common-strings.php:101
+msgid "Introduction"
+msgid_plural "Introductions"
+msgstr[0] "Sarrera"
+msgstr[1] "Sarrerak"
+
+#: languages/common-strings.php:102
+msgid "Description"
+msgid_plural "Descriptions"
+msgstr[0] "Deskribapena"
+msgstr[1] "Deskribapenak"
+
+#: languages/common-strings.php:103
+msgid "Text"
+msgid_plural "Texts"
+msgstr[0] "Testua"
+msgstr[1] "Testuak"
+
+#: languages/common-strings.php:104
+msgid "News"
+msgid_plural "News(s)"
+msgstr[0] "Albiste"
+msgstr[1] "Albisteak"
+
+#: languages/common-strings.php:105
+msgid "Subject"
+msgid_plural "Subjects"
+msgstr[0] "Gaia"
+msgstr[1] "Gaiak"
+
+#: languages/common-strings.php:106
+msgid "Message"
+msgid_plural "Messages"
+msgstr[0] "Mezua"
+msgstr[1] "Mezuak"
+
+#: languages/common-strings.php:107
+msgid "Section"
+msgid_plural "Sections"
+msgstr[0] "Atala"
+msgstr[1] "Atalak"
+
+#: languages/common-strings.php:108
+msgid "Content"
+msgid_plural "Contents"
+msgstr[0] "Edukia"
+msgstr[1] "Edukiak"
+
+#: languages/common-strings.php:109
+msgid "Html"
+msgstr "Html"
+
+#: languages/common-strings.php:110
+msgid "Website"
+msgid_plural "Websites"
+msgstr[0] "Web tokia"
+msgstr[1] "Web tokiak"
+
+#: languages/common-strings.php:111
+msgid "Url"
+msgid_plural "Urls"
+msgstr[0] "Url"
+msgstr[1] "Url-ak"
+
+#: languages/common-strings.php:112
+msgid "Link"
+msgid_plural "Links"
+msgstr[0] "Esteka"
+msgstr[1] "Estekak"
+
+#: languages/common-strings.php:113
+msgid "Slug"
+msgstr "Slug"
+
+#: languages/common-strings.php:115
+msgid "Type"
+msgid_plural "Types"
+msgstr[0] "Mota"
+msgstr[1] "Motak"
+
+#: languages/common-strings.php:116
+msgid "Other"
+msgid_plural "Others"
+msgstr[0] "Bestelakoa"
+msgstr[1] "Bestelakoak"
+
+#: languages/common-strings.php:117
+msgid "Price"
+msgid_plural "Prices"
+msgstr[0] "Prezioa"
+msgstr[1] "Prezioak"
+
+#: languages/common-strings.php:118
+msgid "Quantity"
+msgid_plural "Quantities"
+msgstr[0] "Zenbatekoa"
+msgstr[1] "Zenbatekoak"
+
+#: languages/common-strings.php:120
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] "Kategoria"
+msgstr[1] "Kategoriak"
+
+#: languages/common-strings.php:121
+msgid "Theme"
+msgid_plural "Themes"
+msgstr[0] "Tema"
+msgstr[1] "Temak"
+
+#: languages/common-strings.php:122
+msgid "Template"
+msgid_plural "Templates"
+msgstr[0] "Txantiloia"
+msgstr[1] "Txantiloiak"
+
+#: languages/common-strings.php:124
+msgid "No"
+msgstr "Ez"
+
+#: languages/common-strings.php:125
+msgid "Yes"
+msgstr "Bai"
+
+#: languages/common-strings.php:126
+msgid "Off"
+msgstr "Desaktibatua"
+
+#: languages/common-strings.php:127
+msgid "On"
+msgstr "Piztuta"
+
+#: languages/common-strings.php:128
+msgid "Unasigned"
+msgstr "Esleigabea"
+
+#: languages/common-strings.php:129
+msgid "Error"
+msgid_plural "Errors"
+msgstr[0] "Akatsa"
+msgstr[1] "Akatsak"
+
+#: languages/common-strings.php:130
+msgid "Success"
+msgstr "Arrakastatsua"
+
+#: languages/common-strings.php:131
+msgid "Fail"
+msgstr "Akats"
+
+#: languages/common-strings.php:132
+msgid "OK"
+msgstr "OK"
+
+#: languages/common-strings.php:133
+msgid "Open"
+msgstr "Zabaldu"
+
+#: languages/common-strings.php:134
+msgid "Close"
+msgstr "Itxi"
+
+#: languages/common-strings.php:135
+msgid "Allow"
+msgstr "Baimendu"
+
+#: languages/common-strings.php:136
+msgid "Deny"
+msgstr "Ukatu"
+
+#: languages/common-strings.php:138
+msgid "Public"
+msgid_plural "Publics"
+msgstr[0] "Publikoa"
+msgstr[1] "Publikoak"
+
+#: languages/common-strings.php:139
+msgid "Private"
+msgid_plural "Privates"
+msgstr[0] "Pribatua"
+msgstr[1] "Pribatuak"
+
+#: languages/common-strings.php:140
+msgid "Visibility"
+msgid_plural "Visibilities"
+msgstr[0] "Ikuspena"
+msgstr[1] "Ikuspenak"
+
+#: languages/common-strings.php:142
+msgid "Available"
+msgstr "Eskuragarri"
+
+#: languages/common-strings.php:143
+msgid "Unavailable"
+msgstr "Ez eskuragarri"
+
+#: languages/common-strings.php:148
+msgid "Upload file"
+msgid_plural "Upload files"
+msgstr[0] "Fitxategia igo"
+msgstr[1] "Fitxategiak igo"
+
+#: languages/common-strings.php:149
+msgid "Download"
+msgid_plural "Downloads"
+msgstr[0] "Jaitsi"
+msgstr[1] "Jaitsierak"
+
+#: languages/common-strings.php:150
+msgid "Download file"
+msgid_plural "Download files"
+msgstr[0] "Fitxategia jaitsi"
+msgstr[1] "Fitxategiak jaitsi"
+
+#: languages/common-strings.php:151
+#, php-format
+msgid "List of %s"
+msgstr "%s-(r)en zerrenda"
+
+#: languages/common-strings.php:152 languages/common-strings.php:154
+#, php-format
+msgid "Edit %s"
+msgstr "%s editatu"
+
+#: languages/common-strings.php:153
+#, php-format
+msgid "List of %s %2s"
+msgstr "%s-(r)en zerrenda  %2s"
+
+#: languages/common-strings.php:155
+#, php-format
+msgid "Edit %s %2s"
+msgstr "%s editatu %2s"
+
+#: languages/common-strings.php:156
+#, php-format
+msgid "Add %s"
+msgstr "%s gehitu"
+
+#: languages/common-strings.php:157
+#, php-format
+msgid "Delete %s"
+msgstr "%s ezabatu"
+
+#: languages/common-strings.php:158
+#, php-format
+msgid "%s successfully deleted."
+msgstr "%s ezabatu da."
+
+#: languages/common-strings.php:159
+#, php-format
+msgid "Do you want to delete this %s?"
+msgid_plural "Do you want to delete these %s?"
+msgstr[0] "%s ezabatu nahi duzu?"
+msgstr[1] "%s ezabatu nahi dituzu?"
+
+#: languages/common-strings.php:160
+msgid "Option"
+msgid_plural "Options"
+msgstr[0] "Aukera"
+msgstr[1] "Aukerak"
+
+#: languages/common-strings.php:161
+msgid "Setting"
+msgid_plural "Settings"
+msgstr[0] "Konfigurazioa"
+msgstr[1] "Konfigurazioak"
+
+#: languages/common-strings.php:162
+msgid "Permission"
+msgid_plural "Permissions"
+msgstr[0] "Baimena"
+msgstr[1] "Baimenak"
+
+#: languages/common-strings.php:163
+msgid "Main management"
+msgstr "Kudeaketa orokorra"
+
+#: languages/common-strings.php:165
+msgid "Help"
+msgstr "Laguntza"
+
+#: languages/common-strings.php:167
+msgid "Test"
+msgid_plural "Tests"
+msgstr[0] "Test"
+msgstr[1] "Testak"
+
+#: languages/common-strings.php:172
+msgid "field"
+msgid_plural "fields"
+msgstr[0] "Eremua"
+msgstr[1] "Eremuak"
+
+#: languages/common-strings.php:173
+msgid "note"
+msgid_plural "notes"
+msgstr[0] "Oharra"
+msgstr[1] "Oharrak"
+
+#: languages/common-strings.php:174
+msgid "tag"
+msgid_plural "tags"
+msgstr[0] "etiketa"
+msgstr[1] "etiketak"
+
+#: languages/common-strings.php:175
+msgid "src-line"
+msgstr "src-line"
+
+#: languages/common-strings.php:176
+msgid "Access denied"
+msgstr "Sarbide ukatua"
+
+#: languages/common-strings.php:177
+msgid "Insert your username"
+msgstr "Zure erabiltzaile izena sartu"
+
+#: languages/common-strings.php:178
+msgid "Insert your username or email address"
+msgstr "Zure erabiltzaile izena edo emaila sartu"
+
+#: languages/common-strings.php:179
+msgid "Dashboard"
+msgstr "Mahaigaina"
+
+#: languages/common-strings.php:180
+msgid "Cancel"
+msgstr "Ezeztatu"
+
+#: languages/common-strings.php:181
+msgid "Accept"
+msgstr "Baieztatu"
+
+#: languages/common-strings.php:182
+msgid "Device"
+msgid_plural "Devices"
+msgstr[0] "Gailua"
+msgstr[1] "Gailuak"
+
+#: configs/klearRaw/SpeakerList.yaml:14 configs/klearRaw/SpeakerList.yaml:35
+#: configs/klearRaw/SpeakerList.yaml:45 configs/klearRaw/SpeakerList.yaml:55
+#: configs/klearRaw/SpeakerList.yaml:56 configs/klearRaw/SpeakerList.yaml:57
+#: configs/klearRaw/klear.yaml:74 configs/klearRaw/klear.yaml:76
+msgid "Speaker"
+msgid_plural "Speaker(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/SpeakerList.yaml:17 configs/klearRaw/SpeakerList.yaml:24
+#: configs/klearRaw/ScheduleList.yaml:17 configs/klearRaw/ScheduleList.yaml:24
+#: configs/klearRaw/TxokoList.yaml:17 configs/klearRaw/TxokoList.yaml:24
+#: configs/klearRaw/RelTagSchedueleList.yaml:17
+#: configs/klearRaw/RelTagSchedueleList.yaml:24
+#: configs/klearRaw/SponsorsList.yaml:17 configs/klearRaw/SponsorsList.yaml:24
+#: configs/klearRaw/MeetingList.yaml:17 configs/klearRaw/MeetingList.yaml:24
+#: configs/klearRaw/LinksList.yaml:17 configs/klearRaw/LinksList.yaml:24
+#: configs/klearRaw/RelTagSpeakerList.yaml:17
+#: configs/klearRaw/RelTagSpeakerList.yaml:24
+#: configs/klearRaw/ExpositorList.yaml:17
+#: configs/klearRaw/ExpositorList.yaml:24
+#: configs/klearRaw/AssistantsList.yaml:17
+#: configs/klearRaw/AssistantsList.yaml:24 configs/klearRaw/TagsList.yaml:17
+#: configs/klearRaw/TagsList.yaml:24 configs/klearRaw/KlearUsersList.yaml:17
+#: configs/klearRaw/KlearUsersList.yaml:24
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:17
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:24
+#, fuzzy
+msgid "Options"
+msgstr "Aukera"
+
+#: configs/klearRaw/ScheduleList.yaml:14 configs/klearRaw/ScheduleList.yaml:35
+#: configs/klearRaw/ScheduleList.yaml:45 configs/klearRaw/ScheduleList.yaml:55
+#: configs/klearRaw/ScheduleList.yaml:56 configs/klearRaw/ScheduleList.yaml:57
+#: configs/klearRaw/klear.yaml:70 configs/klearRaw/klear.yaml:72
+msgid "Schedule"
+msgid_plural "Schedule(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/TxokoList.yaml:14 configs/klearRaw/TxokoList.yaml:35
+#: configs/klearRaw/TxokoList.yaml:45 configs/klearRaw/TxokoList.yaml:55
+#: configs/klearRaw/TxokoList.yaml:56 configs/klearRaw/TxokoList.yaml:57
+#: configs/klearRaw/klear.yaml:86 configs/klearRaw/klear.yaml:88
+msgid "Txoko"
+msgid_plural "Txoko(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/RelTagSchedueleList.yaml:14
+#: configs/klearRaw/RelTagSchedueleList.yaml:35
+#: configs/klearRaw/RelTagSchedueleList.yaml:42
+#: configs/klearRaw/RelTagSchedueleList.yaml:49
+#: configs/klearRaw/RelTagSchedueleList.yaml:50
+#: configs/klearRaw/RelTagSchedueleList.yaml:51 configs/klearRaw/klear.yaml:62
+#: configs/klearRaw/klear.yaml:64
+msgid "Rel tag scheduele"
+msgid_plural "Rel tag scheduele(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/SponsorsList.yaml:14 configs/klearRaw/SponsorsList.yaml:35
+#: configs/klearRaw/SponsorsList.yaml:45 configs/klearRaw/SponsorsList.yaml:55
+#: configs/klearRaw/SponsorsList.yaml:56 configs/klearRaw/SponsorsList.yaml:57
+#: configs/klearRaw/klear.yaml:78 configs/klearRaw/klear.yaml:80
+msgid "Sponsor"
+msgid_plural "Sponsors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/MeetingList.yaml:14 configs/klearRaw/MeetingList.yaml:35
+#: configs/klearRaw/MeetingList.yaml:45 configs/klearRaw/MeetingList.yaml:55
+#: configs/klearRaw/MeetingList.yaml:56 configs/klearRaw/MeetingList.yaml:57
+#: configs/klearRaw/klear.yaml:54 configs/klearRaw/klear.yaml:56
+#, fuzzy
+msgid "Meeting"
+msgid_plural "Meeting(s)"
+msgstr[0] "Konfigurazioa"
+msgstr[1] "Konfigurazioak"
+
+#: configs/klearRaw/RelTagSpeakerList.yaml:14
+#: configs/klearRaw/RelTagSpeakerList.yaml:35
+#: configs/klearRaw/RelTagSpeakerList.yaml:42
+#: configs/klearRaw/RelTagSpeakerList.yaml:49
+#: configs/klearRaw/RelTagSpeakerList.yaml:50
+#: configs/klearRaw/RelTagSpeakerList.yaml:51 configs/klearRaw/klear.yaml:66
+#: configs/klearRaw/klear.yaml:68
+msgid "Rel tag speaker"
+msgid_plural "Rel tag speaker(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/ExpositorList.yaml:14
+#: configs/klearRaw/ExpositorList.yaml:35
+#: configs/klearRaw/ExpositorList.yaml:45
+#: configs/klearRaw/ExpositorList.yaml:55
+#: configs/klearRaw/ExpositorList.yaml:56
+#: configs/klearRaw/ExpositorList.yaml:57 configs/klearRaw/klear.yaml:42
+#: configs/klearRaw/klear.yaml:44
+msgid "Expositor"
+msgid_plural "Expositor(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/AssistantsList.yaml:14
+#: configs/klearRaw/AssistantsList.yaml:35
+#: configs/klearRaw/AssistantsList.yaml:45
+#: configs/klearRaw/AssistantsList.yaml:55
+#: configs/klearRaw/AssistantsList.yaml:56
+#: configs/klearRaw/AssistantsList.yaml:57 configs/klearRaw/klear.yaml:38
+#: configs/klearRaw/klear.yaml:40
+msgid "Assistant"
+msgid_plural "Assistants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/klear.yaml:46 configs/klearRaw/klear.yaml:48
+#: configs/klearRaw/KlearUsersList.yaml:14
+#: configs/klearRaw/KlearUsersList.yaml:35
+#: configs/klearRaw/KlearUsersList.yaml:45
+#: configs/klearRaw/KlearUsersList.yaml:55
+#: configs/klearRaw/KlearUsersList.yaml:56
+#: configs/klearRaw/KlearUsersList.yaml:57
+msgid "Klear user"
+msgid_plural "Klear users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/klear.yaml:58 configs/klearRaw/klear.yaml:60
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:14
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:35
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:42
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:49
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:50
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:51
+msgid "Rel schedule speaker"
+msgid_plural "Rel schedule speaker"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/klear.yaml:82 configs/klearRaw/klear.yaml:84
+#: configs/klearRaw/TagsList.yaml:14 configs/klearRaw/TagsList.yaml:35
+#: configs/klearRaw/TagsList.yaml:45 configs/klearRaw/TagsList.yaml:55
+#: configs/klearRaw/TagsList.yaml:56 configs/klearRaw/TagsList.yaml:57
+#, fuzzy
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] "etiketa"
+msgstr[1] "etiketak"
+
+#: configs/klearRaw/model/Speaker.yaml:54
+#: configs/klearRaw/model/Assistants.yaml:18
+msgid "Company"
+msgstr ""
+
+#: configs/klearRaw/model/Speaker.yaml:57
+#: configs/klearRaw/model/Expositor.yaml:56
+#: configs/klearRaw/model/Sponsors.yaml:54 configs/klearRaw/model/Tags.yaml:13
+#: configs/klearRaw/model/Txoko.yaml:54
+#: configs/klearRaw/model/Schedule.yaml:82
+#: configs/klearRaw/model/Assistants.yaml:89
+#, fuzzy
+msgid "Last modified"
+msgstr "Abizena"
+
+#: configs/klearRaw/model/Speaker.yaml:65
+#: configs/klearRaw/model/Schedule.yaml:90
+#, fuzzy
+msgid "Link1"
+msgstr "Esteka"
+
+#: configs/klearRaw/model/Speaker.yaml:68
+#: configs/klearRaw/model/Schedule.yaml:93
+#, fuzzy
+msgid "Link1 type"
+msgstr "Fitxategi mota"
+
+#: configs/klearRaw/model/Speaker.yaml:81
+#: configs/klearRaw/model/Schedule.yaml:106
+#, fuzzy
+msgid "Link2"
+msgstr "Esteka"
+
+#: configs/klearRaw/model/Speaker.yaml:84
+#: configs/klearRaw/model/Schedule.yaml:109
+#, fuzzy
+msgid "Link2 type"
+msgstr "Fitxategi mota"
+
+#: configs/klearRaw/model/Speaker.yaml:97
+#: configs/klearRaw/model/Schedule.yaml:122
+#, fuzzy
+msgid "Link3"
+msgstr "Esteka"
+
+#: configs/klearRaw/model/Speaker.yaml:100
+#: configs/klearRaw/model/Schedule.yaml:125
+#, fuzzy
+msgid "Link3 type"
+msgstr "Fitxategi mota"
+
+#: configs/klearRaw/model/Speaker.yaml:113
+#: configs/klearRaw/model/Schedule.yaml:138
+#, fuzzy
+msgid "Link4"
+msgstr "Esteka"
+
+#: configs/klearRaw/model/Speaker.yaml:116
+#: configs/klearRaw/model/Schedule.yaml:141
+#, fuzzy
+msgid "Link4 type"
+msgstr "Fitxategi mota"
+
+#: configs/klearRaw/model/RelTagSpeaker.yaml:5
+#: configs/klearRaw/model/RelTagScheduele.yaml:5
+msgid "Id tag"
+msgstr ""
+
+#: configs/klearRaw/model/RelTagSpeaker.yaml:19
+#: configs/klearRaw/model/RelScheduleSpeaker.yaml:19
+msgid "Id speaker"
+msgstr ""
+
+#: configs/klearRaw/model/Expositor.yaml:5
+#: configs/klearRaw/model/Sponsors.yaml:10
+msgid "Logo"
+msgstr ""
+
+#: configs/klearRaw/model/Expositor.yaml:48
+msgid "Company name"
+msgstr ""
+
+#: configs/klearRaw/model/Tags.yaml:10
+msgid "Color"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:5
+msgid "Sender"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:19
+msgid "Receiver"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:32
+#, fuzzy
+msgid "Created at"
+msgstr "Sortua"
+
+#: configs/klearRaw/model/Meeting.yaml:40
+#, fuzzy
+msgid "Statu"
+msgstr "Egoera"
+
+#: configs/klearRaw/model/Meeting.yaml:46
+msgid "pending"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:47
+#, fuzzy
+msgid "canceled"
+msgstr "Ezeztatu"
+
+#: configs/klearRaw/model/Meeting.yaml:48
+#, fuzzy
+msgid "accepted"
+msgstr "Baieztatu"
+
+#: configs/klearRaw/model/Meeting.yaml:50
+#, fuzzy
+msgid "Email share"
+msgstr "Helbidea"
+
+#: configs/klearRaw/model/Meeting.yaml:56
+#: configs/klearRaw/model/Meeting.yaml:65
+#: configs/klearRaw/model/Meeting.yaml:74
+#: configs/klearRaw/model/Meeting.yaml:90
+#: configs/klearRaw/model/Meeting.yaml:106
+msgid "0"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:57
+#: configs/klearRaw/model/Meeting.yaml:66
+#: configs/klearRaw/model/Meeting.yaml:75
+#: configs/klearRaw/model/Meeting.yaml:91
+#: configs/klearRaw/model/Meeting.yaml:107
+#: configs/klearRaw/model/Schedule.yaml:11
+msgid "1"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:59
+msgid "Cellphone share"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:68
+msgid "At right now"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:77
+msgid "At right now when"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:84
+msgid "At half hour"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:93
+msgid "At half hour when"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:100
+msgid "At one hour"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:109
+msgid "At one hour when"
+msgstr ""
+
+#: configs/klearRaw/model/Schedule.yaml:5
+msgid "Target date"
+msgstr ""
+
+#: configs/klearRaw/model/Schedule.yaml:12
+msgid "2"
+msgstr ""
+
+#: configs/klearRaw/model/Schedule.yaml:66
+#, fuzzy
+msgid "Start date time"
+msgstr "Hasiera"
+
+#: configs/klearRaw/model/Schedule.yaml:74
+msgid "Finish date time"
+msgstr ""
+
+#: configs/klearRaw/model/Schedule.yaml:154
+#: configs/klearRaw/model/Assistants.yaml:71
+#, fuzzy
+msgid "Location"
+msgstr "Atala"
+
+#: configs/klearRaw/model/Assistants.yaml:97
+msgid "Interests"
+msgstr "Interesak"
+
+#: configs/klearRaw/model/RelScheduleSpeaker.yaml:5
+msgid "Id schedule"
+msgstr ""
+
+#: configs/klearRaw/model/Assistants.yaml:21
+msgid "Cell phone"
+msgstr ""
+
+#: configs/klearRaw/model/Assistants.yaml:24
+#, fuzzy
+msgid "Position"
+msgstr "Deskribapena"
+
+#: configs/klearRaw/model/Assistants.yaml:77
+msgid "Code postal"
+msgstr ""
+
+#: configs/klearRaw/model/Assistants.yaml:80
+msgid "Uuid"
+msgstr ""
+
+#: configs/klearRaw/model/Assistants.yaml:83
+#, fuzzy
+msgid "Code"
+msgstr "Posta kodea"
+
+#: configs/klearRaw/model/Assistants.yaml:86
+msgid "Secret hash"
+msgstr ""
+
+#: configs/klearRaw/model/RelTagScheduele.yaml:19
+msgid "Id scheduele"
+msgstr ""
+
+#: configs/klear/klear.yaml:39
+#, fuzzy
+msgid "Contenidos"
+msgstr "Edukia"
+
+#: configs/klear/klear.yaml:40
+msgid "Lista de contenidos"
+msgstr ""
+
+#: configs/klear/klear.yaml:71
+msgid "Asistentes"
+msgstr ""
+
+#: configs/klear/klear.yaml:72
+msgid "Lista de asistentes"
+msgstr ""
+
+#: configs/klear/klear.yaml:83 configs/klear/klear.yaml:84
+msgid "Configuración"
+msgstr ""
+
+#: configs/klear/model/Changelog.yaml:5
+#, fuzzy
+msgid "Start dt"
+msgstr "Hasiera"
+
+#: configs/klear/model/Changelog.yaml:14
+msgid "Complete dt"
+msgstr ""
+
+#: configs/klear/model/Changelog.yaml:21
+msgid "Applied by"
+msgstr ""
+
+#: configs/klear/model/Speaker.yaml:71 configs/klear/model/Schedule.yaml:93
+msgid "Tags"
+msgstr ""
+
+#: configs/klear/model/Meeting.yaml:52
+msgid "Pending"
+msgstr ""
+
+#: configs/klear/model/Meeting.yaml:53
+#, fuzzy
+msgid "Canceled"
+msgstr "Ezeztatu"
+
+#: configs/klear/model/Meeting.yaml:54
+#, fuzzy
+msgid "Accepted"
+msgstr "Baieztatu"
+
+#: configs/klear/model/Meeting.yaml:76 configs/klear/model/Meeting.yaml:100
+#: configs/klear/model/Meeting.yaml:124
+#, fuzzy
+msgid "Si"
+msgstr "Tamaina"
+
+#: configs/klear/model/Schedule.yaml:11
+msgid "November 11"
+msgstr ""
+
+#: configs/klear/model/Schedule.yaml:12
+msgid "November 12"
+msgstr ""
+
+#: configs/klear/model/Schedule.yaml:127
+msgid "Inicio"
+msgstr ""
+
+#: configs/klear/model/Schedule.yaml:134
+msgid "Fin"
+msgstr ""
+
+#, fuzzy
+#~ msgid "First Day"
+#~ msgstr "Izena"
+
+#~ msgid "notes"
+#~ msgstr "Oharrak"
+
+#~ msgid "tags"
+#~ msgstr "etiketa"
+
+#~ msgid "Users"
+#~ msgstr "Erabiltzaileak"
+
+#~ msgid "Sections"
+#~ msgstr "Atalak"

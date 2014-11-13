@@ -1,0 +1,20 @@
+mappers: 
+  - &Assistants {mapper: \Librecon\Mapper\Sql\Assistants, modelFile: Assistants}
+  - &Expositor {mapper: \Librecon\Mapper\Sql\Expositor, modelFile: Expositor}
+  - &KlearRoles {mapper: \Librecon\Mapper\Sql\KlearRoles, modelFile: KlearRoles}
+  - &KlearRolesSections {mapper: \Librecon\Mapper\Sql\KlearRolesSections, modelFile: KlearRolesSections}
+  - &KlearSections {mapper: \Librecon\Mapper\Sql\KlearSections, modelFile: KlearSections}
+  - &KlearUsers {mapper: \Librecon\Mapper\Sql\KlearUsers, modelFile: KlearUsers}
+  - &KlearUsersRoles {mapper: \Librecon\Mapper\Sql\KlearUsersRoles, modelFile: KlearUsersRoles}
+  - &Links {mapper: \Librecon\Mapper\Sql\Links, modelFile: Links}
+  - &Meeting {mapper: \Librecon\Mapper\Sql\Meeting, modelFile: Meeting}
+  - &RelScheduleSpeaker {mapper: \Librecon\Mapper\Sql\RelScheduleSpeaker, modelFile: RelScheduleSpeaker}
+  - &RelTagScheduele {mapper: \Librecon\Mapper\Sql\RelTagScheduele, modelFile: RelTagScheduele}
+  - &RelTagSpeaker {mapper: \Librecon\Mapper\Sql\RelTagSpeaker, modelFile: RelTagSpeaker}
+  - &Schedule {mapper: \Librecon\Mapper\Sql\Schedule, modelFile: Schedule}
+  - &Speaker {mapper: \Librecon\Mapper\Sql\Speaker, modelFile: Speaker}
+  - &Sponsors {mapper: \Librecon\Mapper\Sql\Sponsors, modelFile: Sponsors}
+  - &Tags {mapper: \Librecon\Mapper\Sql\Tags, modelFile: Tags}
+  - &Txoko {mapper: \Librecon\Mapper\Sql\Txoko, modelFile: Txoko}
+  - &Versions {mapper: \Librecon\Mapper\Sql\Versions, modelFile: Versions}
+  - &Changelog {mapper: \Librecon\Mapper\Sql\Changelog, modelFile: Changelog}

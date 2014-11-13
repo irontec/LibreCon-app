@@ -1,0 +1,114 @@
+production: 
+  main: 
+    log: 
+      writerName: "Null"
+      writerParams: 
+    sitename: MyApp
+    logo: klear/images/klear.png
+    year: 2014
+    lang: es
+    langs: 
+      es: 
+        title: Español
+        language: es
+        locale: es_ES
+      en: 
+        title: English
+        language: en
+        locale: en_US
+      eu: 
+        title: Euskara
+        language: eu
+        locale: eu_ES
+    jqueryUI: 
+      theme: redmond
+    cssExtended: 
+    actionHelpers: 
+    auth: 
+      adapter: Klear_Auth_Adapter_Basic
+      title: _("Access denied")
+      description: _("Insert your username")
+    timezone: Europe/Madrid
+  menu: 
+    General: 
+      title: _("Main management")
+      description: _("Main management")
+      submenus: 
+        AssistantsList: 
+          title: ngettext('Assistant', 'Assistants', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Assistant', 'Assistants', 0))
+        ExpositorList: 
+          title: ngettext('Expositor', 'Expositor', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Expositor', 'Expositor', 0))
+        KlearRolesList: 
+          title: ngettext('Klear role', 'Klear roles', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Klear role', 'Klear roles', 0))
+        KlearRolesSectionsList: 
+          title: ngettext('Klear roles section', 'Klear roles sections', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Klear roles section', 'Klear roles sections', 0))
+        KlearSectionsList: 
+          title: ngettext('Klear section', 'Klear sections', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Klear section', 'Klear sections', 0))
+        KlearUsersList: 
+          title: ngettext('Klear user', 'Klear users', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Klear user', 'Klear users', 0))
+        KlearUsersRolesList: 
+          title: ngettext('Klear users role', 'Klear users roles', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Klear users role', 'Klear users roles', 0))
+        LinksList: 
+          title: ngettext('Link', 'Links', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Link', 'Links', 0))
+        MeetingList: 
+          title: ngettext('Meeting', 'Meeting', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Meeting', 'Meeting', 0))
+        RelScheduleSpeakerList: 
+          title: ngettext('Rel schedule speaker', 'Rel schedule speaker', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Rel schedule speaker', 'Rel schedule speaker', 0))
+        RelTagSchedueleList: 
+          title: ngettext('Rel tag scheduele', 'Rel tag scheduele', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Rel tag scheduele', 'Rel tag scheduele', 0))
+        RelTagSpeakerList: 
+          title: ngettext('Rel tag speaker', 'Rel tag speaker', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Rel tag speaker', 'Rel tag speaker', 0))
+        ScheduleList: 
+          title: ngettext('Schedule', 'Schedule', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Schedule', 'Schedule', 0))
+        SpeakerList: 
+          title: ngettext('Speaker', 'Speaker', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Speaker', 'Speaker', 0))
+        SponsorsList: 
+          title: ngettext('Sponsor', 'Sponsors', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Sponsor', 'Sponsors', 0))
+        TagsList: 
+          title: ngettext('Tag', 'Tags', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Tag', 'Tags', 0))
+        TxokoList: 
+          title: ngettext('Txoko', 'Txoko', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Txoko', 'Txoko', 0))
+        VersionsList: 
+          title: ngettext('Version', 'Versions', 0)
+          class: ui-silk-text-list-bullets
+          description: _("List of %s", ngettext('Version', 'Versions', 0))
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

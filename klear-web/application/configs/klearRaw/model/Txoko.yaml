@@ -1,0 +1,72 @@
+production: 
+  class: \Librecon\Model\Txoko
+  fields: 
+    picture: 
+      title: ngettext('Picture', 'Pictures', 1)
+      type: file
+      source: 
+        data: fso
+        size_limit: 20M
+        options: 
+          download: 
+            external: true
+            type: command
+            target: PictureDownload_command
+            icon: ui-silk-bullet-disk
+            title: _("Download file")
+            onNull: hide
+          upload: 
+            type: command
+            target: PictureUpload_command
+            title: _("Upload file")
+            class: qq-uploader
+            onNull: show
+          preview: 
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            external: 1
+            props: 
+              width: 150
+              height: 150
+              crop: false
+            onNull: hide
+          previewList: 
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            listController: 1
+            external: 1
+            props: 
+              width: 30
+              height: 30
+              crop: false
+            onNull: hide
+      default: true
+    title: 
+      title: ngettext('Title', 'Titles', 1)
+      type: text
+      required: true
+    orderField: 
+      title: _('Order field')
+      type: number
+      defaultValue: 0
+      source: 
+        control: Spinner
+    text: 
+      title: ngettext('Text', 'Texts', 1)
+      type: textarea
+    lastModified: 
+      title: _('Last modified')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

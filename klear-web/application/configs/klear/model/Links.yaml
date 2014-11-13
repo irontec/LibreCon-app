@@ -1,0 +1,16 @@
+production: 
+  class: \Librecon\Model\Links
+  fields: 
+    name: 
+      title: ngettext('Name', 'Names', 1)
+      type: text
+      default: true
+    type: 
+      title: ngettext('Type', 'Types', 1)
+      type: text
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

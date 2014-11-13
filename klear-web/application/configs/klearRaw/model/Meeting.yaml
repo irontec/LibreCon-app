@@ -1,0 +1,106 @@
+production: 
+  class: \Librecon\Model\Meeting
+  fields: 
+    sender: 
+      title: _('Sender')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Assistants
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+      default: true
+    receiver: 
+      title: _('Receiver')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Assistants
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+    createdAt: 
+      title: _('Created at')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+    status: 
+      title: _('Statu')
+      type: select
+      defaultValue: pending
+      source: 
+        data: inline
+        values: 
+          'pending': _('pending')
+          'canceled': _('canceled')
+          'accepted': _('accepted')
+    emailShare: 
+      title: _('Email share')
+      type: select
+      defaultValue: 0
+      source: 
+        data: inline
+        values: 
+          '0': _('0')
+          '1': _('1')
+    cellphoneShare: 
+      title: _('Cellphone share')
+      type: select
+      defaultValue: 0
+      source: 
+        data: inline
+        values: 
+          '0': _('0')
+          '1': _('1')
+    atRightNow: 
+      title: _('At right now')
+      type: select
+      defaultValue: 0
+      source: 
+        data: inline
+        values: 
+          '0': _('0')
+          '1': _('1')
+    atHalfHour: 
+      title: _('At half hour')
+      type: select
+      defaultValue: 0
+      source: 
+        data: inline
+        values: 
+          '0': _('0')
+          '1': _('1')
+    atOneHour: 
+      title: _('At one hour')
+      type: select
+      defaultValue: 0
+      source: 
+        data: inline
+        values: 
+          '0': _('0')
+          '1': _('1')
+    responseDate: 
+      title: _('Response date')
+      type: picker
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

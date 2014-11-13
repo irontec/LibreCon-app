@@ -1,0 +1,265 @@
+production: 
+  class: \Librecon\Model\Schedule
+  fields: 
+    targetDate: 
+      title: _('Target date')
+      type: select
+      required: true
+      source: 
+        data: inline
+        values: 
+          '1': _('November 11')
+          '2': _('November 12')
+    name: 
+      title: 'Título de la ponencia'
+      type: text
+      required: true
+      default: true
+    description: 
+      title: ngettext('Description', 'Descriptions', 1)
+      type: textarea
+    picture: 
+      title: 'Foto de la ponencia'
+      type: file
+      source: 
+        data: fso
+        size_limit: 20M
+        options: 
+          download: 
+            external: true
+            type: command
+            target: PictureDownload_command
+            icon: ui-silk-bullet-disk
+            title: _("Download file")
+            onNull: hide
+          upload: 
+            type: command
+            target: PictureUpload_command
+            title: _("Upload file")
+            class: qq-uploader
+            onNull: show
+          preview: 
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            external: 1
+            props: 
+              width: 300
+              height: 150
+              crop: true
+            onNull: hide
+          previewList: 
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            listController: 1
+            external: 1
+            props: 
+              width: 30
+              height: 30
+              crop: true
+            onNull: hide
+    startDateTime: 
+      title: _('Start date time')
+      type: picker
+      required: true
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+    finishDateTime: 
+      title: _('Finish date time')
+      type: picker
+      required: true
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+    lastModified: 
+      title: _('Last modified')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+    RelTagScheduele:
+      title: _("Tags")
+      type: multiselect
+      source:
+        data: mapper
+        config:
+          relationMapper: \Librecon\Mapper\Sql\RelTagScheduele
+          relatedMapperName: \Librecon\Mapper\Sql\Tags
+          relatedFieldName: name
+          relationProperty: Tags
+      decorators:
+        autocomplete:
+          command: autocomplete_command
+      options:
+        screens:
+          tagsNew_screen: true
+          
+    RelScheduleSpeaker:
+      title: _("Speaker")
+      type: multiselect
+      source:
+        data: mapper
+        config:
+          relationMapper: \Librecon\Mapper\Sql\RelScheduleSpeaker
+          relatedMapperName: \Librecon\Mapper\Sql\Speaker
+          relatedFieldName: name
+          relationProperty: Speaker
+      decorators:
+        autocomplete:
+          command: autocomplete_command_speaker
+      options:
+        screens:
+          speakerNew_screen: true
+          
+    startTime:
+      title: _("Inicio")
+      type: picker
+      source: 
+        control: time
+        settings: 
+          disabled: 'false'
+    finishTime:
+      title: _("Fin")
+      type: picker
+      source: 
+        control: time
+        settings: 
+          disabled: 'false'
+    link1: 
+      title: _('Link1')
+      type: text
+    link1Type: 
+      title: _('Link1 type')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Links
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+    link2: 
+      title: _('Link2')
+      type: text
+    link2Type: 
+      title: _('Link2 type')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Links
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+    link3: 
+      title: _('Link3')
+      type: text
+    link3Type: 
+      title: _('Link3 type')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Links
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+    link4: 
+      title: _('Link4')
+      type: text
+    link4Type: 
+      title: _('Link4 type')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Links
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+    location: 
+      title: _('Location')
+      type: select
+      source: 
+        data: inline
+        values:
+          'Sala Red Hat':
+            title: _("Sala Red Hat")
+          'Sala Open':
+            title: _("Sala Open")
+          'Tech Space':
+            title: _("Tech Space")
+          'Palacio Euskalduna':
+            title: _("Palacio Euskalduna")
+      
+      
+      
+    icon: 
+      title: 'Foto resumen (dimensiones cuadradas)'
+      type: file
+      source: 
+        data: fso
+        size_limit: 20M
+        options: 
+          download: 
+            external: true
+            type: command
+            target: IconDownload_command
+            icon: ui-silk-bullet-disk
+            title: _("Download file")
+            onNull: hide
+          upload: 
+            type: command
+            target: IconUpload_command
+            title: _("Upload file")
+            class: qq-uploader
+            onNull: show
+          preview: 
+            target: IconPreview_command
+            type: command
+            class: filePreview
+            external: 1
+            props: 
+              width: 150
+              height: 150
+              crop: true
+            onNull: hide
+          previewList: 
+            target: IconPreview_command
+            type: command
+            class: filePreview
+            listController: 1
+            external: 1
+            props: 
+              width: 30
+              height: 30
+              crop: true
+            onNull: hide
+    color: 
+      title: _('Color')
+      type: text
+      defaultValue: 'ffffff'
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

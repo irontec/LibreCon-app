@@ -1,0 +1,21 @@
+production: 
+  class: \Librecon\Model\Versions
+  fields: 
+    table: 
+      title: _('Table')
+      type: text
+      required: true
+      default: true
+    version: 
+      title: _('Version')
+      type: picker
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

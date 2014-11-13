@@ -1,0 +1,41 @@
+production: 
+  class: \Librecon\Model\Tags
+  fields: 
+    name: 
+      title: ngettext('Name', 'Names', 1)
+      type: text
+      required: true
+      default: true
+    color: 
+      title: _('Color')
+      type: select
+      source: 
+        data: inline
+        values:
+          'CB9B12': Color predefinido para Administración Pública
+          'C91D83': Color predefinido para Comercio electrónico
+          '006EB6': Color predefinido para Negocios
+          'CB0D17': Color predefinido para Casos de éxito
+          'B3CAA0': Color predefinido para Taller
+          '670047': Color predefinido para Charla
+          '00F097': Color predefinido para Keynote
+          '962F33': Color predefinido para Finanzas
+          '69CA1B': Color predefinido para Educación
+          'FEF200': Color predefinido para Industria
+          '000000': Color predefinido para Conferencia
+      
+      
+    lastModified: 
+      title: _('Last modified')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

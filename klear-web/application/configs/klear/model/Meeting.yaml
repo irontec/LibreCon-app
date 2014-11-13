@@ -1,0 +1,140 @@
+production: 
+  class: \Librecon\Model\Meeting
+  fields: 
+    sender: 
+      title: _('Sender')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Assistants
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+      default: true
+      decorators:
+        autocomplete:
+          command: autocomplete_command_sender
+    receiver: 
+      title: _('Receiver')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Assistants
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+      decorators:
+        autocomplete:
+          command: autocomplete_command_receiver
+    createdAt: 
+      title: _('Created at')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+    status: 
+      title: _('Statu')
+      type: select
+      defaultValue: pending
+      source: 
+        data: inline
+        values: 
+          'pending': _('Pending')
+          'canceled': _('Canceled')
+          'accepted': _('Accepted')
+    emailShare: 
+      title: _('Email share')
+      type: checkbox
+      defaultValue: 0
+    cellphoneShare: 
+      title: _('Cellphone share')
+      type: checkbox
+      defaultValue: 0
+    atRightNow: 
+      title: _('At right now')
+      type: select
+      defaultValue: 0
+      source: 
+        data: inline
+        values:
+          '0':
+            title: _("No")
+            visualFilter:
+              show: ["atHalfHour", "atOneHour"]
+              hide: []
+          '1':
+            title: _("Si")
+            visualFilter:
+              show: []
+              hide: ["atHalfHour", "atOneHour"]
+    atRightNowWhen: 
+      title: _('At right now when')
+      type: picker
+      source: 
+        control: time
+        settings: 
+          disabled: 'false'
+    atHalfHour: 
+      title: _('At half hour')
+      type: select
+      defaultValue: 0
+      source: 
+        data: inline
+        values:
+          '0':
+            title: _("No")
+            visualFilter:
+              show: ["atRightNow", "atOneHour"]
+              hide: []
+          '1':
+            title: _("Si")
+            visualFilter:
+              show: []
+              hide: ["atRightNow", "atOneHour"]
+    atHalfHourWhen: 
+      title: _('At half hour when')
+      type: picker
+      source: 
+        control: time
+        settings: 
+          disabled: 'false'
+    atOneHour: 
+      title: _('At one hour')
+      type: select
+      defaultValue: 0
+      source: 
+        data: inline
+        values:
+          '0':
+            title: _("No")
+            visualFilter:
+              show: ["atHalfHour", "atRightNow"]
+              hide: []
+          '1':
+            title: _("Si")
+            visualFilter:
+              show: []
+              hide: ["atHalfHour", "atRightNow"]
+    atOneHourWhen: 
+      title: _('At one hour when')
+      type: picker
+      source: 
+        control: time
+        settings: 
+          disabled: 'false'
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

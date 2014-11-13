@@ -1,0 +1,18 @@
+production:
+  main:
+    module: klearMatrix
+    defaultScreen: Dashboard_screen
+
+  screens:
+
+    Dashboard_screen:
+      controller: dashboard
+      action: index
+      title: 
+        i18n:
+          es: Vista general de la plataforma
+      useExplain: false
+testing: 
+  _extends: production
+development: 
+  _extends: production

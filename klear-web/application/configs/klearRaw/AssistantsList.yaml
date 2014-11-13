@@ -1,0 +1,81 @@
+#include conf.d/mapperList.yaml
+#include conf.d/actions.yaml
+
+production: 
+  main: 
+    module: klearMatrix
+    defaultScreen: assistantsList_screen
+  screens: 
+    assistantsList_screen: &assistantsList_screenLink 
+      controller: list
+      pagination: 
+        items: 25
+      <<: *Assistants
+      title: _("List of %s %2s", ngettext('Assistant', 'Assistants', 0), "[format| (%parent%)]")
+      fields: 
+        options: 
+          title: _("Options")
+          screens: 
+            assistantsEdit_screen: true
+          dialogs: 
+            assistantsDel_dialog: true
+          default: assistantsEdit_screen
+      options: 
+        title: _("Options")
+        screens: 
+          assistantsNew_screen: true
+        dialogs: 
+          assistantsDel_dialog: true
+    assistantsNew_screen: &assistantsNew_screenLink 
+      <<: *Assistants
+      controller: new
+      class: ui-silk-add
+      label: true
+      multiInstance: true
+      title: _("Add %s", ngettext('Assistant', 'Assistants', 1))
+      shortcutOption: N
+      fields: 
+        blacklist: 
+          lastModified: true
+    assistantsEdit_screen: &assistantsEdit_screenLink 
+      <<: *Assistants
+      controller: edit
+      class: ui-silk-pencil
+      label: false
+      title: _("Edit %s %2s", ngettext('Assistant', 'Assistants', 1), "[format| (%item%)]")
+      fields: 
+        blacklist: 
+          lastModified: true
+  dialogs: 
+    assistantsDel_dialog: 
+      <<: *Assistants
+      controller: delete
+      class: ui-silk-bin
+      labelOption: false
+      title: _("Delete %s", ngettext('Assistant', 'Assistants', 1))
+      description: _("Do you want to delete this %s?", ngettext('Assistant', 'Assistants', 1))
+      message: _("%s successfully deleted.", ngettext('Assistant', 'Assistants', 1))
+      multiItem: 1
+      labelOnList: 1
+  commands: 
+    PictureDownload_command: 
+      <<: *Assistants
+      controller: File
+      action: force-download
+      mainColumn: picture
+    PictureUpload_command: 
+      <<: *Assistants
+      controller: File
+      action: upload
+      mainColumn: picture
+    PicturePreview_command: 
+      <<: *Assistants
+      controller: File
+      action: preview
+      mainColumn: picture
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

@@ -1,0 +1,59 @@
+#include conf.d/mapperList.yaml
+#include conf.d/actions.yaml
+
+production: 
+  main: 
+    module: klearMatrix
+    defaultScreen: linksList_screen
+  screens: 
+    linksList_screen: &linksList_screenLink 
+      controller: list
+      pagination: 
+        items: 25
+      <<: *Links
+      title: _("List of %s %2s", ngettext('Link', 'Links', 0), "[format| (%parent%)]")
+      fields: 
+        options: 
+          title: _("Options")
+          screens: 
+            linksEdit_screen: true
+          dialogs: 
+            linksDel_dialog: true
+          default: linksEdit_screen
+      options: 
+        title: _("Options")
+        screens: 
+          linksNew_screen: true
+        dialogs: 
+          linksDel_dialog: true
+    linksNew_screen: &linksNew_screenLink 
+      <<: *Links
+      controller: new
+      class: ui-silk-add
+      label: true
+      multiInstance: true
+      title: _("Add %s", ngettext('Link', 'Links', 1))
+      shortcutOption: N
+    linksEdit_screen: &linksEdit_screenLink 
+      <<: *Links
+      controller: edit
+      class: ui-silk-pencil
+      label: false
+      title: _("Edit %s %2s", ngettext('Link', 'Links', 1), "[format| (%item%)]")
+  dialogs: 
+    linksDel_dialog: 
+      <<: *Links
+      controller: delete
+      class: ui-silk-bin
+      labelOption: false
+      title: _("Delete %s", ngettext('Link', 'Links', 1))
+      description: _("Do you want to delete this %s?", ngettext('Link', 'Links', 1))
+      message: _("%s successfully deleted.", ngettext('Link', 'Links', 1))
+      multiItem: 1
+      labelOnList: 1
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

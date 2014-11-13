@@ -1,0 +1,153 @@
+production: 
+  class: \Librecon\Model\Assistants
+  fields: 
+    externalId: 
+      title: _('External id')
+      type: number
+      defaultValue: 0
+      source: 
+        control: Spinner
+      default: true
+    name: 
+      title: ngettext('Name', 'Names', 1)
+      type: text
+      required: true
+    lastName: 
+      title: _('Last name')
+      type: text
+      required: true
+    email: 
+      title: ngettext('Email', 'Emails', 1)
+      type: text
+      required: true
+    company: 
+      title: _('Company')
+      type: text
+    cellPhone: 
+      title: _('Cell phone')
+      type: text
+    position: 
+      title: _('Position')
+      type: text
+    picture: 
+      title: ngettext('Picture', 'Pictures', 1)
+      type: file
+      source: 
+        data: fso
+        size_limit: 20M
+        options: 
+          download: 
+            external: true
+            type: command
+            target: PictureDownload_command
+            icon: ui-silk-bullet-disk
+            title: _("Download file")
+            onNull: hide
+          upload: 
+            type: command
+            target: PictureUpload_command
+            title: _("Upload file")
+            class: qq-uploader
+            onNull: show
+          preview: 
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            external: 1
+            props: 
+              width: 150
+              height: 150
+              crop: false
+            onNull: hide
+          previewList: 
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            listController: 1
+            external: 1
+            props: 
+              width: 30
+              height: 30
+              crop: false
+            onNull: hide
+    address: 
+      title: ngettext('Address', 'Addresss', 1)
+      type: text
+    location: 
+      title: _('Location')
+      type: text
+    country: 
+      title: ngettext('Country', 'Countries', 1)
+      type: text
+    codePostal: 
+      title: _('Code postal')
+      type: text
+    uuid: 
+      title: _('Uuid')
+      type: text
+    code: 
+      title: _('Code')
+      type: text
+    secretHash: 
+      title: _('Secret hash')
+      type: text
+    lastModified: 
+      title: _('Last modified')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+    interests: 
+      title: _('Interest')
+      type: text
+    device: 
+      title: ngettext('Device', 'Devices', 1)
+      type: select
+      defaultValue: android
+      source: 
+        data: inline
+        values: 
+          'android': _('android')
+          'ios': _('ios')
+    lang: 
+      title: _('Lang')
+      type: select
+      defaultValue: es
+      source: 
+        data: inline
+        values: 
+          'es': _('es')
+          'eu': _('eu')
+          'en': _('en')
+    mailOne: 
+      title: _('Mail one')
+      type: number
+      defaultValue: 0
+      source: 
+        control: Spinner
+    mailTwo: 
+      title: _('Mail two')
+      type: number
+      defaultValue: 0
+      source: 
+        control: Spinner
+    mailRemember: 
+      title: _('Mail remember')
+      type: number
+      defaultValue: 0
+      source: 
+        control: Spinner
+    hidden: 
+      title: _('Hidden')
+      type: number
+      defaultValue: 0
+      source: 
+        control: Spinner
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

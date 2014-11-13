@@ -1,0 +1,59 @@
+#include conf.d/mapperList.yaml
+#include conf.d/actions.yaml
+
+production: 
+  main: 
+    module: klearMatrix
+    defaultScreen: klearRolesSectionsList_screen
+  screens: 
+    klearRolesSectionsList_screen: &klearRolesSectionsList_screenLink 
+      controller: list
+      pagination: 
+        items: 25
+      <<: *KlearRolesSections
+      title: _("List of %s %2s", ngettext('Klear roles section', 'Klear roles sections', 0), "[format| (%parent%)]")
+      fields: 
+        options: 
+          title: _("Options")
+          screens: 
+            klearRolesSectionsEdit_screen: true
+          dialogs: 
+            klearRolesSectionsDel_dialog: true
+          default: klearRolesSectionsEdit_screen
+      options: 
+        title: _("Options")
+        screens: 
+          klearRolesSectionsNew_screen: true
+        dialogs: 
+          klearRolesSectionsDel_dialog: true
+    klearRolesSectionsNew_screen: &klearRolesSectionsNew_screenLink 
+      <<: *KlearRolesSections
+      controller: new
+      class: ui-silk-add
+      label: true
+      multiInstance: true
+      title: _("Add %s", ngettext('Klear roles section', 'Klear roles sections', 1))
+      shortcutOption: N
+    klearRolesSectionsEdit_screen: &klearRolesSectionsEdit_screenLink 
+      <<: *KlearRolesSections
+      controller: edit
+      class: ui-silk-pencil
+      label: false
+      title: _("Edit %s %2s", ngettext('Klear roles section', 'Klear roles sections', 1), "[format| (%item%)]")
+  dialogs: 
+    klearRolesSectionsDel_dialog: &klearRolesSectionsDel_dialogLink 
+      <<: *KlearRolesSections
+      controller: delete
+      class: ui-silk-bin
+      labelOption: false
+      title: _("Delete %s", ngettext('Klear roles section', 'Klear roles sections', 1))
+      description: _("Do you want to delete this %s?", ngettext('Klear roles section', 'Klear roles sections', 1))
+      message: _("%s successfully deleted.", ngettext('Klear roles section', 'Klear roles sections', 1))
+      multiItem: 1
+      labelOnList: 1
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

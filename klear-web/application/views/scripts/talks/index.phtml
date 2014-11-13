@@ -1,0 +1,58 @@
+<?php
+
+    foreach($this->data as $item) {
+        
+        
+        echo '<div class="talk">';
+        echo '<span id="'.$item['slug'].'"></span>';
+        
+        echo '<div class="row">';
+        
+            echo '<div class="col-xs-12 col-sm-3">';
+?>
+            <div id="carousel_<?php echo $item['slug']?>" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+<?php if (sizeof($item['imgs'])> 1) { ?>
+            <ol class="carousel-indicators">
+    <?php foreach($item['imgs'] as $idx => $url) { ?>
+                <li data-target="#carousel_<?php echo $item['slug']?>" data-slide-to="<?php echo $idx?>" class="<?php echo ($idx == 0)? 'active':''?>"></li>
+    <?php }?>
+            </ol>
+<?php }?>
+            
+            <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+    <?php foreach($item['imgs'] as $idx => $url) {?>
+                    <div class="item <?php echo ($idx == 0)? 'active':''?>">
+                        <img src="<?php echo $url?>" alt="" />
+                    </div>
+    <?php }?>
+                </div>
+            
+            </div>
+
+<?php
+            echo '</div>';
+            echo '<div class="info col-xs-12 col-sm-9">';
+            
+            echo '<p class="date">' . $item['start']->format("d M H:i") . ' - ' . $item['end']->format("H:i") . '<span>'.$item['location'].'</span></p>';
+            echo '<p class="ponencia">' . $item['title'] . '</p>';
+            foreach($item['speakers'] as $speaker) {
+                echo '<p class="ponente">' . $speaker['name'] . '</p>';
+                echo '<p class="entidad">' . $speaker['company'] . '</p>';
+                
+            }
+            
+            echo '<p class="description">' . nl2br($item['description']) . '</p>';
+            
+            foreach($item['tags'] as $tag) {
+                echo '<span class="tag '. $tag['class'].'">' . $tag['name'].'</span>';
+            }
+        
+        echo '</div></div></div>';
+    }
+?>
+<script>
+//A tope con la chavalería. La elegancia hecha código. Pero es ue me la suda...
+setTimeout(function() { var $li = jQuery('#' + jQuery(document.location.hash).parents("div.ui-tabs-panel").attr("aria-labelledby")); if ($li.length > 0) $li.trigger("click"); }, 800);
+</script>

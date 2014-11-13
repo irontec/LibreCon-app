@@ -1,0 +1,36 @@
+production: 
+  class: \Librecon\Model\KlearUsersRoles
+  fields: 
+    klearUserId: 
+      title: _('Klear user id')
+      type: select
+      required: true
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\KlearUsers
+          fieldName: 
+            fields: 
+              - login
+            template: '%login%'
+          order: login
+      default: true
+    klearRoleId: 
+      title: _('Klear role id')
+      type: select
+      required: true
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\KlearRoles
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

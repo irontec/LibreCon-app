@@ -1,0 +1,1331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-22 14:42+0100\n"
+"PO-Revision-Date: 2014-10-02 10:57+0100\n"
+"Last-Translator: Victor <victor@irontec.com>\n"
+"Language-Team: victor@irontec.com\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;translate;plural:1,2\n"
+"X-Poedit-Basepath: /home/aitor/workspace/librecon/server/klear-web/"
+"application\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: languages/common-strings.php:6
+msgid "Login"
+msgstr "Identificación"
+
+#: languages/common-strings.php:7
+msgid "Username"
+msgstr "super Nombre de usuario"
+
+#: languages/common-strings.php:8
+msgid "Email"
+msgid_plural "Emails"
+msgstr[0] "Email"
+msgstr[1] "Emails"
+
+#: languages/common-strings.php:9
+msgid "Email address"
+msgid_plural "Email addresses"
+msgstr[0] "Dirección de email"
+msgstr[1] "Direcciones de email"
+
+#: languages/common-strings.php:10
+msgid "Pass"
+msgstr "Contraseña"
+
+#: languages/common-strings.php:11
+msgid "Password"
+msgid_plural "Passwords"
+msgstr[0] "Contraseña"
+msgstr[1] "Contraseñas"
+
+#: languages/common-strings.php:12
+msgid "User"
+msgid_plural "Users"
+msgstr[0] "Usuario"
+msgstr[1] "Usuarios"
+
+#: languages/common-strings.php:13
+msgid "Name"
+msgid_plural "Names"
+msgstr[0] "Nombre"
+msgstr[1] "Nombres"
+
+#: languages/common-strings.php:14
+msgid "Surname"
+msgid_plural "Surnames"
+msgstr[0] "Apellido"
+msgstr[1] "Apellidos"
+
+#: languages/common-strings.php:15
+msgid "FirstName"
+msgstr "Nombre"
+
+#: languages/common-strings.php:16
+msgid "Firstname"
+msgstr "Nombre"
+
+#: languages/common-strings.php:17
+msgid "First name"
+msgstr "Nombre"
+
+#: languages/common-strings.php:18
+msgid "LastName"
+msgstr "Apellido"
+
+#: languages/common-strings.php:19
+msgid "Lastname"
+msgstr "Apellido"
+
+#: languages/common-strings.php:20
+msgid "Last name"
+msgstr "Apellido"
+
+#: languages/common-strings.php:21
+msgid "PhoneNumber"
+msgid_plural "PhoneNumbers"
+msgstr[0] "Número de teléfono"
+msgstr[1] "Números de teléfono"
+
+#: languages/common-strings.php:22
+msgid "Phonenumber"
+msgid_plural "Phonenumbers"
+msgstr[0] "Número de teléfono"
+msgstr[1] "Números de teléfono"
+
+#: languages/common-strings.php:23
+msgid "Phone number"
+msgid_plural "Phone numbers"
+msgstr[0] "Número de teléfono"
+msgstr[1] "Números de teléfono"
+
+#: languages/common-strings.php:24
+msgid "Address"
+msgid_plural "Addresses"
+msgstr[0] "Dirección"
+msgstr[1] "Direcciónes"
+
+#: languages/common-strings.php:25
+msgid "Street"
+msgid_plural "Streets"
+msgstr[0] "Calle"
+msgstr[1] "Calles"
+
+#: languages/common-strings.php:26
+msgid "PostalCode"
+msgid_plural "PostalCodes"
+msgstr[0] "Código postal"
+msgstr[1] "Códigos postales"
+
+#: languages/common-strings.php:27
+msgid "Postalcode"
+msgid_plural "Postalcodes"
+msgstr[0] "Código postal"
+msgstr[1] "Códigos postales"
+
+#: languages/common-strings.php:28
+msgid "Postal code"
+msgid_plural "Postal codes"
+msgstr[0] "Código postal"
+msgstr[1] "Códigos postales"
+
+#: languages/common-strings.php:29
+msgid "ZipCode"
+msgid_plural "ZipCodes"
+msgstr[0] "Código postal"
+msgstr[1] "Códigos postales"
+
+#: languages/common-strings.php:30
+msgid "Zipcode"
+msgid_plural "Zipcodes"
+msgstr[0] "Código postal"
+msgstr[1] "Códigos postales"
+
+#: languages/common-strings.php:31
+msgid "Zip code"
+msgid_plural "Zip codes"
+msgstr[0] "Código postal"
+msgstr[1] "Códigos postales"
+
+#: languages/common-strings.php:32
+msgid "Province"
+msgid_plural "Provinces"
+msgstr[0] "Provincia"
+msgstr[1] "Provincias"
+
+#: languages/common-strings.php:33
+msgid "City"
+msgid_plural "Cities"
+msgstr[0] "Ciudad"
+msgstr[1] "Ciudades"
+
+#: languages/common-strings.php:34
+msgid "State"
+msgid_plural "States"
+msgstr[0] "Estado"
+msgstr[1] "Estados"
+
+#: languages/common-strings.php:35
+msgid "Country"
+msgid_plural "Countries"
+msgstr[0] "País"
+msgstr[1] "Países"
+
+#: languages/common-strings.php:36
+msgid "Account"
+msgid_plural "Accounts"
+msgstr[0] "Cuenta"
+msgstr[1] "Cuentas"
+
+#: languages/common-strings.php:38
+msgid "Role"
+msgid_plural "Roles"
+msgstr[0] "Rol"
+msgstr[1] "Roles"
+
+#: languages/common-strings.php:43
+msgid "File"
+msgid_plural "Files"
+msgstr[0] "Fichero"
+msgstr[1] "Ficheros"
+
+#: languages/common-strings.php:44
+msgid "Path"
+msgid_plural "Paths"
+msgstr[0] "Ruta"
+msgstr[1] "Rutas"
+
+#: languages/common-strings.php:45
+msgid "Size"
+msgid_plural "Sizes"
+msgstr[0] "Tamaño"
+msgstr[1] "Tamaños"
+
+#: languages/common-strings.php:46
+msgid "FileSize"
+msgstr "Tamaño de fichero"
+
+#: languages/common-strings.php:47
+msgid "Filesize"
+msgstr "Tamaño de fichero"
+
+#: languages/common-strings.php:48
+msgid "File size"
+msgstr "Tamaño de fichero"
+
+#: languages/common-strings.php:49
+msgid "FilePath"
+msgstr "Ruta de fichero"
+
+#: languages/common-strings.php:50
+msgid "Filepath"
+msgstr "Ruta de fichero"
+
+#: languages/common-strings.php:51
+msgid "File path"
+msgstr "Ruta de fichero"
+
+#: languages/common-strings.php:52
+msgid "MimeType"
+msgid_plural "MimeTypes"
+msgstr[0] "Tipo de fichero"
+msgstr[1] "Tipos de fichero"
+
+#: languages/common-strings.php:53
+msgid "Mimetype"
+msgid_plural "Mimetypes"
+msgstr[0] "Tipo de fichero"
+msgstr[1] "Tipos de fichero"
+
+#: languages/common-strings.php:54
+msgid "Mime type"
+msgid_plural "Mime types"
+msgstr[0] "Tipo de fichero"
+msgstr[1] "Tipos de fichero"
+
+#: languages/common-strings.php:55
+msgid "BaseName"
+msgstr "Nombre base"
+
+#: languages/common-strings.php:56
+msgid "Base name"
+msgstr "Nombre base"
+
+#: languages/common-strings.php:57
+msgid "Image"
+msgid_plural "Images"
+msgstr[0] "Imagen"
+msgstr[1] "Imágenes"
+
+#: languages/common-strings.php:58
+msgid "ImageSize"
+msgstr "Tamaño de imagen"
+
+#: languages/common-strings.php:59
+msgid "Imagesize"
+msgstr "Tamaño de imagen"
+
+#: languages/common-strings.php:60
+msgid "Image size"
+msgstr "Tamaño de imagen"
+
+#: languages/common-strings.php:61
+msgid "ImagePath"
+msgstr "Ruta de imagen"
+
+#: languages/common-strings.php:62
+msgid "Imagepath"
+msgstr "Ruta de imagen"
+
+#: languages/common-strings.php:63
+msgid "Image path"
+msgstr "Ruta de imagen"
+
+#: languages/common-strings.php:64
+msgid "Picture"
+msgid_plural "Pictures"
+msgstr[0] "Foto"
+msgstr[1] "Fotos"
+
+#: languages/common-strings.php:65
+msgid "PictureSize"
+msgstr "Tamaño de foto"
+
+#: languages/common-strings.php:66
+msgid "Picturesize"
+msgstr "Tamaño de foto"
+
+#: languages/common-strings.php:67
+msgid "Picture size"
+msgstr "Tamaño de foto"
+
+#: languages/common-strings.php:68
+msgid "PicturePath"
+msgstr "Ruta de foto"
+
+#: languages/common-strings.php:69
+msgid "Picturepath"
+msgstr "Ruta de foto"
+
+#: languages/common-strings.php:70
+msgid "Picture path"
+msgstr "Ruta de foto"
+
+#: languages/common-strings.php:75
+msgid "Active"
+msgstr "Activo"
+
+#: languages/common-strings.php:76
+msgid "Status"
+msgid_plural "Statuses"
+msgstr[0] "Estado"
+msgstr[1] "Estados"
+
+#: languages/common-strings.php:77
+msgid "CreatedOn"
+msgstr "Creado"
+
+#: languages/common-strings.php:78
+msgid "Createdon"
+msgstr "Creado"
+
+#: languages/common-strings.php:79
+msgid "Created on"
+msgstr "Creado"
+
+#: languages/common-strings.php:80
+msgid "UpdatedOn"
+msgstr "Modificado"
+
+#: languages/common-strings.php:81
+msgid "Updatedon"
+msgstr "Modificado"
+
+#: languages/common-strings.php:82
+msgid "Updated on"
+msgstr "Modificado"
+
+#: languages/common-strings.php:83
+msgid "StartTime"
+msgstr "Tiempo de inicio"
+
+#: languages/common-strings.php:84
+msgid "Starttime"
+msgstr "Tiempo de inicio"
+
+#: languages/common-strings.php:85
+msgid "Start time"
+msgstr "Tiempo de inicio"
+
+#: languages/common-strings.php:86
+msgid "EndTime"
+msgstr "Tiempo de fin"
+
+#: languages/common-strings.php:87
+msgid "Endtime"
+msgstr "Fecha fin"
+
+#: languages/common-strings.php:88
+msgid "End time"
+msgstr "Fecha fin"
+
+#: languages/common-strings.php:89
+msgid "Start"
+msgstr "Inicio"
+
+#: languages/common-strings.php:90
+msgid "End"
+msgstr "Fin"
+
+#: languages/common-strings.php:91
+msgid "Date"
+msgid_plural "Dates"
+msgstr[0] "Fecha"
+msgstr[1] "Fechas"
+
+#: languages/common-strings.php:92
+msgid "Time"
+msgid_plural "Times"
+msgstr[0] "Tiempo"
+msgstr[1] "Tiempos"
+
+#: languages/common-strings.php:93
+msgid "Interval"
+msgid_plural "Intervals"
+msgstr[0] "Intervalo"
+msgstr[1] "Intervalos"
+
+#: languages/common-strings.php:94
+msgid "Identifier"
+msgid_plural "Identifiers"
+msgstr[0] "Identificador"
+msgstr[1] "Identificadores"
+
+#: languages/common-strings.php:95
+msgid "Iden"
+msgid_plural "Idens"
+msgstr[0] "Identificador"
+msgstr[1] "Identificadores"
+
+#: languages/common-strings.php:96
+msgid "Order"
+msgid_plural "Orders"
+msgstr[0] "Orden"
+msgstr[1] "Órdenes"
+
+#: languages/common-strings.php:97
+msgid "Value"
+msgid_plural "Values"
+msgstr[0] "Valor"
+msgstr[1] "Valores"
+
+#: languages/common-strings.php:98
+msgid "Title"
+msgid_plural "Titles"
+msgstr[0] "Título"
+msgstr[1] "Títulos"
+
+#: languages/common-strings.php:99
+msgid "Subtitle"
+msgid_plural "Subtitles"
+msgstr[0] "Subtítulo"
+msgstr[1] "Subtítulos"
+
+#: languages/common-strings.php:100
+msgid "Intro"
+msgid_plural "Intros"
+msgstr[0] "Introducción"
+msgstr[1] "Introducciones"
+
+#: languages/common-strings.php:101
+msgid "Introduction"
+msgid_plural "Introductions"
+msgstr[0] "Introducción"
+msgstr[1] "Introducciones"
+
+#: languages/common-strings.php:102
+msgid "Description"
+msgid_plural "Descriptions"
+msgstr[0] "Descripción"
+msgstr[1] "Descripciones"
+
+#: languages/common-strings.php:103
+msgid "Text"
+msgid_plural "Texts"
+msgstr[0] "Texto"
+msgstr[1] "Textos"
+
+#: languages/common-strings.php:104
+msgid "News"
+msgid_plural "News(s)"
+msgstr[0] "Noticia"
+msgstr[1] "Noticias"
+
+#: languages/common-strings.php:105
+msgid "Subject"
+msgid_plural "Subjects"
+msgstr[0] "Asunto"
+msgstr[1] "Asuntos"
+
+#: languages/common-strings.php:106
+msgid "Message"
+msgid_plural "Messages"
+msgstr[0] "Mensaje"
+msgstr[1] "Mensajes"
+
+#: languages/common-strings.php:107
+msgid "Section"
+msgid_plural "Sections"
+msgstr[0] "Sección"
+msgstr[1] "Secciones"
+
+#: languages/common-strings.php:108
+msgid "Content"
+msgid_plural "Contents"
+msgstr[0] "Contenido"
+msgstr[1] "Contenidos"
+
+#: languages/common-strings.php:109
+msgid "Html"
+msgstr "Html"
+
+#: languages/common-strings.php:110
+msgid "Website"
+msgid_plural "Websites"
+msgstr[0] "Sitio web"
+msgstr[1] "Sitios web"
+
+#: languages/common-strings.php:111
+msgid "Url"
+msgid_plural "Urls"
+msgstr[0] "Url"
+msgstr[1] "Urls"
+
+#: languages/common-strings.php:112
+msgid "Link"
+msgid_plural "Links"
+msgstr[0] "Enlace"
+msgstr[1] "Enlaces"
+
+#: languages/common-strings.php:113
+msgid "Slug"
+msgstr "Slug"
+
+#: languages/common-strings.php:115
+msgid "Type"
+msgid_plural "Types"
+msgstr[0] "Tipo"
+msgstr[1] "Tipos"
+
+#: languages/common-strings.php:116
+msgid "Other"
+msgid_plural "Others"
+msgstr[0] "Otro"
+msgstr[1] "Otros"
+
+#: languages/common-strings.php:117
+msgid "Price"
+msgid_plural "Prices"
+msgstr[0] "Precio"
+msgstr[1] "Precios"
+
+#: languages/common-strings.php:118
+msgid "Quantity"
+msgid_plural "Quantities"
+msgstr[0] "Cantidad"
+msgstr[1] "Cantidades"
+
+#: languages/common-strings.php:120
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] "Categoría"
+msgstr[1] "Categorías"
+
+#: languages/common-strings.php:121
+msgid "Theme"
+msgid_plural "Themes"
+msgstr[0] "Tema"
+msgstr[1] "Temas"
+
+#: languages/common-strings.php:122
+msgid "Template"
+msgid_plural "Templates"
+msgstr[0] "Plantilla"
+msgstr[1] "Plantillas"
+
+#: languages/common-strings.php:124
+msgid "No"
+msgstr "No"
+
+#: languages/common-strings.php:125
+msgid "Yes"
+msgstr "Si"
+
+#: languages/common-strings.php:126
+msgid "Off"
+msgstr "Apagado"
+
+#: languages/common-strings.php:127
+msgid "On"
+msgstr "Encendido"
+
+#: languages/common-strings.php:128
+msgid "Unasigned"
+msgstr "Sin asignar"
+
+#: languages/common-strings.php:129
+msgid "Error"
+msgid_plural "Errors"
+msgstr[0] "Error"
+msgstr[1] "Errores"
+
+#: languages/common-strings.php:130
+msgid "Success"
+msgstr "Éxitoso"
+
+#: languages/common-strings.php:131
+msgid "Fail"
+msgstr "Fallo"
+
+#: languages/common-strings.php:132
+msgid "OK"
+msgstr "OK"
+
+#: languages/common-strings.php:133
+msgid "Open"
+msgstr "Abrir"
+
+#: languages/common-strings.php:134
+msgid "Close"
+msgstr "Cerrar"
+
+#: languages/common-strings.php:135
+msgid "Allow"
+msgstr "Permitir"
+
+#: languages/common-strings.php:136
+msgid "Deny"
+msgstr "Denegar"
+
+#: languages/common-strings.php:138
+msgid "Public"
+msgid_plural "Publics"
+msgstr[0] "Público"
+msgstr[1] "Públicos"
+
+#: languages/common-strings.php:139
+msgid "Private"
+msgid_plural "Privates"
+msgstr[0] "Privado"
+msgstr[1] "Privados"
+
+#: languages/common-strings.php:140
+msgid "Visibility"
+msgid_plural "Visibilities"
+msgstr[0] "Visibilidad"
+msgstr[1] "Visibilidades"
+
+#: languages/common-strings.php:142
+msgid "Available"
+msgstr "Disponible"
+
+#: languages/common-strings.php:143
+msgid "Unavailable"
+msgstr "No disponible"
+
+#: languages/common-strings.php:148
+msgid "Upload file"
+msgid_plural "Upload files"
+msgstr[0] "Subir fichero"
+msgstr[1] "Subir ficheros"
+
+#: languages/common-strings.php:149
+msgid "Download"
+msgid_plural "Downloads"
+msgstr[0] "Descarga"
+msgstr[1] "Descargas"
+
+#: languages/common-strings.php:150
+msgid "Download file"
+msgid_plural "Download files"
+msgstr[0] "Descargar fichero"
+msgstr[1] "Descargar ficheros"
+
+#: languages/common-strings.php:151
+#, php-format
+msgid "List of %s"
+msgstr "Listado de %s"
+
+#: languages/common-strings.php:152 languages/common-strings.php:154
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: languages/common-strings.php:153
+#, php-format
+msgid "List of %s %2s"
+msgstr "Listado de %s  %2s"
+
+#: languages/common-strings.php:155
+#, php-format
+msgid "Edit %s %2s"
+msgstr "Editar %s %2s"
+
+#: languages/common-strings.php:156
+#, php-format
+msgid "Add %s"
+msgstr "Añadir %s"
+
+#: languages/common-strings.php:157
+#, php-format
+msgid "Delete %s"
+msgstr "Borrar %s"
+
+#: languages/common-strings.php:158
+#, php-format
+msgid "%s successfully deleted."
+msgstr "%s borrado satisfactoriamente. "
+
+#: languages/common-strings.php:159
+#, php-format
+msgid "Do you want to delete this %s?"
+msgid_plural "Do you want to delete these %s?"
+msgstr[0] "¿Quieres eliminar %s?"
+msgstr[1] "¿Quieres eliminar %s?"
+
+#: languages/common-strings.php:160
+msgid "Option"
+msgid_plural "Options"
+msgstr[0] "Opción"
+msgstr[1] "Opciones"
+
+#: languages/common-strings.php:161
+msgid "Setting"
+msgid_plural "Settings"
+msgstr[0] "Configuración"
+msgstr[1] "Configuraciones"
+
+#: languages/common-strings.php:162
+msgid "Permission"
+msgid_plural "Permissions"
+msgstr[0] "Permiso"
+msgstr[1] "Permisos"
+
+#: languages/common-strings.php:163
+msgid "Main management"
+msgstr "Gestión general"
+
+#: languages/common-strings.php:165
+msgid "Help"
+msgstr "Ayuda"
+
+#: languages/common-strings.php:167
+msgid "Test"
+msgid_plural "Tests"
+msgstr[0] "Test"
+msgstr[1] "Tests"
+
+#: languages/common-strings.php:172
+msgid "field"
+msgid_plural "fields"
+msgstr[0] "Elemento"
+msgstr[1] "Elementos"
+
+#: languages/common-strings.php:173
+msgid "note"
+msgid_plural "notes"
+msgstr[0] "Nota"
+msgstr[1] "Notas"
+
+#: languages/common-strings.php:174
+msgid "tag"
+msgid_plural "tags"
+msgstr[0] "etiqueta"
+msgstr[1] "etiquetas"
+
+#: languages/common-strings.php:175
+msgid "src-line"
+msgstr "src-line"
+
+#: languages/common-strings.php:176
+msgid "Access denied"
+msgstr "Acceso denegado"
+
+#: languages/common-strings.php:177
+msgid "Insert your username"
+msgstr "Introduce tu nombre de usuario"
+
+#: languages/common-strings.php:178
+msgid "Insert your username or email address"
+msgstr "Introduce tu nombre de usuario o email"
+
+#: languages/common-strings.php:179
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: languages/common-strings.php:180
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: languages/common-strings.php:181
+msgid "Accept"
+msgstr "Aceptar"
+
+#: languages/common-strings.php:182
+msgid "Device"
+msgid_plural "Devices"
+msgstr[0] "Dispositivo"
+msgstr[1] "Dispositivos"
+
+#: configs/klearRaw/SpeakerList.yaml:14 configs/klearRaw/SpeakerList.yaml:35
+#: configs/klearRaw/SpeakerList.yaml:45 configs/klearRaw/SpeakerList.yaml:55
+#: configs/klearRaw/SpeakerList.yaml:56 configs/klearRaw/SpeakerList.yaml:57
+#: configs/klearRaw/klear.yaml:74 configs/klearRaw/klear.yaml:76
+msgid "Speaker"
+msgid_plural "Speaker(s)"
+msgstr[0] "Ponente"
+msgstr[1] "Ponentes"
+
+#: configs/klearRaw/SpeakerList.yaml:17 configs/klearRaw/SpeakerList.yaml:24
+#: configs/klearRaw/ScheduleList.yaml:17 configs/klearRaw/ScheduleList.yaml:24
+#: configs/klearRaw/TxokoList.yaml:17 configs/klearRaw/TxokoList.yaml:24
+#: configs/klearRaw/RelTagSchedueleList.yaml:17
+#: configs/klearRaw/RelTagSchedueleList.yaml:24
+#: configs/klearRaw/SponsorsList.yaml:17 configs/klearRaw/SponsorsList.yaml:24
+#: configs/klearRaw/MeetingList.yaml:17 configs/klearRaw/MeetingList.yaml:24
+#: configs/klearRaw/LinksList.yaml:17 configs/klearRaw/LinksList.yaml:24
+#: configs/klearRaw/RelTagSpeakerList.yaml:17
+#: configs/klearRaw/RelTagSpeakerList.yaml:24
+#: configs/klearRaw/ExpositorList.yaml:17
+#: configs/klearRaw/ExpositorList.yaml:24
+#: configs/klearRaw/AssistantsList.yaml:17
+#: configs/klearRaw/AssistantsList.yaml:24 configs/klearRaw/TagsList.yaml:17
+#: configs/klearRaw/TagsList.yaml:24 configs/klearRaw/KlearUsersList.yaml:17
+#: configs/klearRaw/KlearUsersList.yaml:24
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:17
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:24
+msgid "Options"
+msgstr "Opción"
+
+#: configs/klearRaw/ScheduleList.yaml:14 configs/klearRaw/ScheduleList.yaml:35
+#: configs/klearRaw/ScheduleList.yaml:45 configs/klearRaw/ScheduleList.yaml:55
+#: configs/klearRaw/ScheduleList.yaml:56 configs/klearRaw/ScheduleList.yaml:57
+#: configs/klearRaw/klear.yaml:70 configs/klearRaw/klear.yaml:72
+msgid "Schedule"
+msgid_plural "Schedule(s)"
+msgstr[0] "Agenda"
+msgstr[1] "Agendas"
+
+#: configs/klearRaw/TxokoList.yaml:14 configs/klearRaw/TxokoList.yaml:35
+#: configs/klearRaw/TxokoList.yaml:45 configs/klearRaw/TxokoList.yaml:55
+#: configs/klearRaw/TxokoList.yaml:56 configs/klearRaw/TxokoList.yaml:57
+#: configs/klearRaw/klear.yaml:86 configs/klearRaw/klear.yaml:88
+msgid "Txoko"
+msgid_plural "Txoko(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/RelTagSchedueleList.yaml:14
+#: configs/klearRaw/RelTagSchedueleList.yaml:35
+#: configs/klearRaw/RelTagSchedueleList.yaml:42
+#: configs/klearRaw/RelTagSchedueleList.yaml:49
+#: configs/klearRaw/RelTagSchedueleList.yaml:50
+#: configs/klearRaw/RelTagSchedueleList.yaml:51 configs/klearRaw/klear.yaml:62
+#: configs/klearRaw/klear.yaml:64
+msgid "Rel tag scheduele"
+msgid_plural "Rel tag scheduele(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/SponsorsList.yaml:14 configs/klearRaw/SponsorsList.yaml:35
+#: configs/klearRaw/SponsorsList.yaml:45 configs/klearRaw/SponsorsList.yaml:55
+#: configs/klearRaw/SponsorsList.yaml:56 configs/klearRaw/SponsorsList.yaml:57
+#: configs/klearRaw/klear.yaml:78 configs/klearRaw/klear.yaml:80
+msgid "Sponsor"
+msgid_plural "Sponsors"
+msgstr[0] "Patrocinador"
+msgstr[1] "Patrocinadores"
+
+#: configs/klearRaw/MeetingList.yaml:14 configs/klearRaw/MeetingList.yaml:35
+#: configs/klearRaw/MeetingList.yaml:45 configs/klearRaw/MeetingList.yaml:55
+#: configs/klearRaw/MeetingList.yaml:56 configs/klearRaw/MeetingList.yaml:57
+#: configs/klearRaw/klear.yaml:54 configs/klearRaw/klear.yaml:56
+msgid "Meeting"
+msgid_plural "Meeting(s)"
+msgstr[0] "Reunión"
+msgstr[1] "Reuniones"
+
+#: configs/klearRaw/RelTagSpeakerList.yaml:14
+#: configs/klearRaw/RelTagSpeakerList.yaml:35
+#: configs/klearRaw/RelTagSpeakerList.yaml:42
+#: configs/klearRaw/RelTagSpeakerList.yaml:49
+#: configs/klearRaw/RelTagSpeakerList.yaml:50
+#: configs/klearRaw/RelTagSpeakerList.yaml:51 configs/klearRaw/klear.yaml:66
+#: configs/klearRaw/klear.yaml:68
+msgid "Rel tag speaker"
+msgid_plural "Rel tag speaker(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/ExpositorList.yaml:14
+#: configs/klearRaw/ExpositorList.yaml:35
+#: configs/klearRaw/ExpositorList.yaml:45
+#: configs/klearRaw/ExpositorList.yaml:55
+#: configs/klearRaw/ExpositorList.yaml:56
+#: configs/klearRaw/ExpositorList.yaml:57 configs/klearRaw/klear.yaml:42
+#: configs/klearRaw/klear.yaml:44
+msgid "Expositor"
+msgid_plural "Expositor(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: configs/klearRaw/AssistantsList.yaml:14
+#: configs/klearRaw/AssistantsList.yaml:35
+#: configs/klearRaw/AssistantsList.yaml:45
+#: configs/klearRaw/AssistantsList.yaml:55
+#: configs/klearRaw/AssistantsList.yaml:56
+#: configs/klearRaw/AssistantsList.yaml:57 configs/klearRaw/klear.yaml:38
+#: configs/klearRaw/klear.yaml:40
+msgid "Assistant"
+msgid_plural "Assistants"
+msgstr[0] "Asistente"
+msgstr[1] "Asistentes"
+
+#: configs/klearRaw/klear.yaml:46 configs/klearRaw/klear.yaml:48
+#: configs/klearRaw/KlearUsersList.yaml:14
+#: configs/klearRaw/KlearUsersList.yaml:35
+#: configs/klearRaw/KlearUsersList.yaml:45
+#: configs/klearRaw/KlearUsersList.yaml:55
+#: configs/klearRaw/KlearUsersList.yaml:56
+#: configs/klearRaw/KlearUsersList.yaml:57
+msgid "Klear user"
+msgid_plural "Klear users"
+msgstr[0] "Usuario Klear"
+msgstr[1] "Usuarios Klear"
+
+#: configs/klearRaw/klear.yaml:58 configs/klearRaw/klear.yaml:60
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:14
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:35
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:42
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:49
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:50
+#: configs/klearRaw/RelScheduleSpeakerList.yaml:51
+#, fuzzy
+msgid "Rel schedule speaker"
+msgid_plural "Rel schedule speaker"
+msgstr[0] "Ponente"
+msgstr[1] "Ponente"
+
+#: configs/klearRaw/klear.yaml:82 configs/klearRaw/klear.yaml:84
+#: configs/klearRaw/TagsList.yaml:14 configs/klearRaw/TagsList.yaml:35
+#: configs/klearRaw/TagsList.yaml:45 configs/klearRaw/TagsList.yaml:55
+#: configs/klearRaw/TagsList.yaml:56 configs/klearRaw/TagsList.yaml:57
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] "Etiqueta"
+msgstr[1] "Etiquetas"
+
+#: configs/klearRaw/model/Speaker.yaml:54
+#: configs/klearRaw/model/Assistants.yaml:18
+msgid "Company"
+msgstr "Empresa"
+
+#: configs/klearRaw/model/Speaker.yaml:57
+#: configs/klearRaw/model/Expositor.yaml:56
+#: configs/klearRaw/model/Sponsors.yaml:54 configs/klearRaw/model/Tags.yaml:13
+#: configs/klearRaw/model/Txoko.yaml:54
+#: configs/klearRaw/model/Schedule.yaml:82
+#: configs/klearRaw/model/Assistants.yaml:89
+msgid "Last modified"
+msgstr "Última modificación"
+
+#: configs/klearRaw/model/Speaker.yaml:65
+#: configs/klearRaw/model/Schedule.yaml:90
+msgid "Link1"
+msgstr "Enlace"
+
+#: configs/klearRaw/model/Speaker.yaml:68
+#: configs/klearRaw/model/Schedule.yaml:93
+msgid "Link1 type"
+msgstr "Tipo de enlace"
+
+#: configs/klearRaw/model/Speaker.yaml:81
+#: configs/klearRaw/model/Schedule.yaml:106
+msgid "Link2"
+msgstr "Enlace"
+
+#: configs/klearRaw/model/Speaker.yaml:84
+#: configs/klearRaw/model/Schedule.yaml:109
+msgid "Link2 type"
+msgstr "Tipo de enlace"
+
+#: configs/klearRaw/model/Speaker.yaml:97
+#: configs/klearRaw/model/Schedule.yaml:122
+msgid "Link3"
+msgstr "Enlace"
+
+#: configs/klearRaw/model/Speaker.yaml:100
+#: configs/klearRaw/model/Schedule.yaml:125
+msgid "Link3 type"
+msgstr "Tipo de enlace"
+
+#: configs/klearRaw/model/Speaker.yaml:113
+#: configs/klearRaw/model/Schedule.yaml:138
+msgid "Link4"
+msgstr "Enlace"
+
+#: configs/klearRaw/model/Speaker.yaml:116
+#: configs/klearRaw/model/Schedule.yaml:141
+msgid "Link4 type"
+msgstr "Tipo de enlace"
+
+#: configs/klearRaw/model/RelTagSpeaker.yaml:5
+#: configs/klearRaw/model/RelTagScheduele.yaml:5
+msgid "Id tag"
+msgstr "Tag"
+
+#: configs/klearRaw/model/RelTagSpeaker.yaml:19
+#: configs/klearRaw/model/RelScheduleSpeaker.yaml:19
+msgid "Id speaker"
+msgstr "Ponente"
+
+#: configs/klearRaw/model/Expositor.yaml:5
+#: configs/klearRaw/model/Sponsors.yaml:10
+msgid "Logo"
+msgstr ""
+
+#: configs/klearRaw/model/Expositor.yaml:48
+msgid "Company name"
+msgstr "Nombre de empresa"
+
+#: configs/klearRaw/model/Tags.yaml:10
+msgid "Color"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:5
+msgid "Sender"
+msgstr "Remitente"
+
+#: configs/klearRaw/model/Meeting.yaml:19
+msgid "Receiver"
+msgstr "Destinatario"
+
+#: configs/klearRaw/model/Meeting.yaml:32
+msgid "Created at"
+msgstr "Creado"
+
+#: configs/klearRaw/model/Meeting.yaml:40
+msgid "Statu"
+msgstr "Estado"
+
+#: configs/klearRaw/model/Meeting.yaml:46
+msgid "pending"
+msgstr "Pendiente"
+
+#: configs/klearRaw/model/Meeting.yaml:47
+msgid "canceled"
+msgstr "cancelado"
+
+#: configs/klearRaw/model/Meeting.yaml:48
+msgid "accepted"
+msgstr "aceptado"
+
+#: configs/klearRaw/model/Meeting.yaml:50
+msgid "Email share"
+msgstr "Compartir email"
+
+#: configs/klearRaw/model/Meeting.yaml:56
+#: configs/klearRaw/model/Meeting.yaml:65
+#: configs/klearRaw/model/Meeting.yaml:74
+#: configs/klearRaw/model/Meeting.yaml:90
+#: configs/klearRaw/model/Meeting.yaml:106
+msgid "0"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:57
+#: configs/klearRaw/model/Meeting.yaml:66
+#: configs/klearRaw/model/Meeting.yaml:75
+#: configs/klearRaw/model/Meeting.yaml:91
+#: configs/klearRaw/model/Meeting.yaml:107
+#: configs/klearRaw/model/Schedule.yaml:11
+msgid "1"
+msgstr ""
+
+#: configs/klearRaw/model/Meeting.yaml:59
+msgid "Cellphone share"
+msgstr "Compartir móvil"
+
+#: configs/klearRaw/model/Meeting.yaml:68
+msgid "At right now"
+msgstr "Ahora"
+
+#: configs/klearRaw/model/Meeting.yaml:77
+msgid "At right now when"
+msgstr "Hora"
+
+#: configs/klearRaw/model/Meeting.yaml:84
+msgid "At half hour"
+msgstr "En media hora"
+
+#: configs/klearRaw/model/Meeting.yaml:93
+msgid "At half hour when"
+msgstr "Hora"
+
+#: configs/klearRaw/model/Meeting.yaml:100
+msgid "At one hour"
+msgstr "En una hora"
+
+#: configs/klearRaw/model/Meeting.yaml:109
+msgid "At one hour when"
+msgstr "Hora"
+
+#: configs/klearRaw/model/Schedule.yaml:5
+msgid "Target date"
+msgstr "Día"
+
+#: configs/klearRaw/model/Schedule.yaml:12
+msgid "2"
+msgstr ""
+
+#: configs/klearRaw/model/Schedule.yaml:66
+msgid "Start date time"
+msgstr "Tiempo de inicio"
+
+#: configs/klearRaw/model/Schedule.yaml:74
+msgid "Finish date time"
+msgstr "Finalizar"
+
+#: configs/klearRaw/model/Schedule.yaml:154
+#: configs/klearRaw/model/Assistants.yaml:71
+msgid "Location"
+msgstr "Localización"
+
+#: configs/klearRaw/model/Assistants.yaml:97
+msgid "Interests"
+msgstr "Intereses"
+
+#: configs/klearRaw/model/RelScheduleSpeaker.yaml:5
+msgid "Id schedule"
+msgstr "Agenda"
+
+#: configs/klearRaw/model/Assistants.yaml:21
+msgid "Cell phone"
+msgstr "Móvil"
+
+#: configs/klearRaw/model/Assistants.yaml:24
+msgid "Position"
+msgstr "Cargo"
+
+#: configs/klearRaw/model/Assistants.yaml:77
+msgid "Code postal"
+msgstr "Código postal"
+
+#: configs/klearRaw/model/Assistants.yaml:80
+msgid "Uuid"
+msgstr ""
+
+#: configs/klearRaw/model/Assistants.yaml:83
+msgid "Code"
+msgstr "Código"
+
+#: configs/klearRaw/model/Assistants.yaml:86
+msgid "Secret hash"
+msgstr ""
+
+#: configs/klearRaw/model/RelTagScheduele.yaml:19
+msgid "Id scheduele"
+msgstr "Agenda"
+
+#: configs/klear/klear.yaml:39
+msgid "Contenidos"
+msgstr ""
+
+#: configs/klear/klear.yaml:40
+msgid "Lista de contenidos"
+msgstr ""
+
+#: configs/klear/klear.yaml:71
+msgid "Asistentes"
+msgstr ""
+
+#: configs/klear/klear.yaml:72
+msgid "Lista de asistentes"
+msgstr ""
+
+#: configs/klear/klear.yaml:83 configs/klear/klear.yaml:84
+msgid "Configuración"
+msgstr ""
+
+#: configs/klear/model/Changelog.yaml:5
+msgid "Start dt"
+msgstr "Tiempo de inicio"
+
+#: configs/klear/model/Changelog.yaml:14
+msgid "Complete dt"
+msgstr ""
+
+#: configs/klear/model/Changelog.yaml:21
+msgid "Applied by"
+msgstr "Aplicado por"
+
+#: configs/klear/model/Speaker.yaml:71 configs/klear/model/Schedule.yaml:93
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: configs/klear/model/Meeting.yaml:52
+msgid "Pending"
+msgstr "Pendiente"
+
+#: configs/klear/model/Meeting.yaml:53
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: configs/klear/model/Meeting.yaml:54
+msgid "Accepted"
+msgstr "Aceptado"
+
+#: configs/klear/model/Meeting.yaml:76 configs/klear/model/Meeting.yaml:100
+#: configs/klear/model/Meeting.yaml:124
+msgid "Si"
+msgstr "Sí"
+
+#: configs/klear/model/Schedule.yaml:11
+msgid "November 11"
+msgstr "11 de Noviembre"
+
+#: configs/klear/model/Schedule.yaml:12
+msgid "November 12"
+msgstr "12 de Noviembre"
+
+#: configs/klear/model/Schedule.yaml:127
+msgid "Inicio"
+msgstr ""
+
+#: configs/klear/model/Schedule.yaml:134
+msgid "Fin"
+msgstr ""
+
+#~ msgid "First Day"
+#~ msgstr "Primer día"
+
+#~ msgid "Second Day"
+#~ msgstr "Segundo día"
+
+#~ msgid "notes"
+#~ msgstr "Nota"
+
+#~ msgid "tags"
+#~ msgstr "etiquetas"
+
+#~ msgid "Sections"
+#~ msgstr "Secciones"
+
+#~ msgid "Users"
+#~ msgstr "Usuarios"
+
+#~ msgid "coche"
+#~ msgid_plural "coches"
+#~ msgstr[0] "xCoche"
+#~ msgstr[1] "xCoches"
+
+#~ msgid "Remove user"
+#~ msgstr "Eliminar usuario"
+
+#~ msgid "%s list"
+#~ msgstr "Listado de %s"
+
+#~ msgid "Usuario o contraseña incorrectos."
+#~ msgstr "Usuario o contraseña incorrectos."
+
+#~ msgid "Nombre no disponible"
+#~ msgstr "Nombre no disponible"
+
+#~ msgid "Usuario (fijo)"
+#~ msgstr "Usuario (fijo)"
+
+#~ msgid "Usuario (móvil)"
+#~ msgstr "Usuario (móvil)"
+
+#~ msgid "Buzón de voz (fijo)"
+#~ msgstr "Buzón de voz (fijo)"
+
+#~ msgid "Buzón de voz (móvil)"
+#~ msgstr "Buzón de voz (móvil)"
+
+#~ msgid "Sala de Conferencias"
+#~ msgstr "Sala de Conferencias"
+
+#~ msgid "Grupo de Salto"
+#~ msgstr "Grupo de Salto"
+
+#~ msgid "IVR de acceso a extensiones"
+#~ msgstr "IVR de acceso a extensiones"
+
+#~ msgid "IVR"
+#~ msgstr "IVR"
+
+#~ msgid "Volver al inicio"
+#~ msgstr "Volver al inicio"
+
+#~ msgid "Haz click para modificar o escuchar la locución"
+#~ msgstr "Haz click para modificar o escuchar la locución"
+
+#~ msgid " -- Eliminar"
+#~ msgstr " -- Eliminar"
+
+#~ msgid "Acción no configurada"
+#~ msgstr "Acción no configurada"
+
+#~ msgid "continuar"
+#~ msgstr "continuar"
+
+#~ msgid "Guardando..."
+#~ msgstr "Guardando..."
+
+#~ msgid "Cerrar"
+#~ msgstr "Cerrar"
+
+#~ msgid "Existe contenido no guardado."
+#~ msgstr "Existe contenido no guardado."
+
+#~ msgid "¿Desea cerrar la pantalla?"
+#~ msgstr "¿Desea cerrar la pantalla?"
+
+#~ msgid "Cuidado!"
+#~ msgstr "Cuidado!"
+
+#~ msgid "Omitir Cambios y Cerrar"
+#~ msgstr "Omitir Cambios y Cerrar"
+
+#~ msgid "-- Sin Locución"
+#~ msgstr "-- Sin Locución"
+
+#~ msgid "En caso de festivo"
+#~ msgstr "En caso de festivo"
+
+#~ msgid "En caso de fuera horario"
+#~ msgstr "En caso de fuera horario"
+
+#~ msgid "En caso de ocupado"
+#~ msgstr "En caso de ocupado"
+
+#~ msgid "En caso de no respuesta"
+#~ msgstr "En caso de no respuesta"
+
+#~ msgid "Guardar"
+#~ msgstr "Guardar"
+
+#~ msgid "Cerrar automáticamente después de guardar"
+#~ msgstr "Cerrar automáticamente después de guardar"
+
+#~ msgid "En caso de fuera de horario"
+#~ msgstr "En caso de fuera de horario"

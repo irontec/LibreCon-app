@@ -1,0 +1,74 @@
+production: 
+  class: \Librecon\Model\Expositor
+  fields: 
+    logo: 
+      title: _('Logo')
+      type: file
+      required: true
+      source: 
+        data: fso
+        size_limit: 20M
+        options: 
+          download: 
+            external: true
+            type: command
+            target: LogoDownload_command
+            icon: ui-silk-bullet-disk
+            title: _("Download file")
+            onNull: hide
+          upload: 
+            type: command
+            target: LogoUpload_command
+            title: _("Upload file")
+            class: qq-uploader
+            onNull: show
+          preview: 
+            target: LogoPreview_command
+            type: command
+            class: filePreview
+            external: 1
+            props: 
+              width: 150
+              height: 150
+              crop: false
+            onNull: hide
+          previewList: 
+            target: LogoPreview_command
+            type: command
+            class: filePreview
+            listController: 1
+            external: 1
+            props: 
+              width: 30
+              height: 30
+              crop: false
+            onNull: hide
+      default: true
+    companyName: 
+      title: _('Company name')
+      type: text
+      required: true
+    orderField: 
+      title: _('Order field')
+      type: number
+      defaultValue: 0
+      source: 
+        control: Spinner
+    description: 
+      title: ngettext('Description', 'Descriptions', 1)
+      type: textarea
+      required: true
+    lastModified: 
+      title: _('Last modified')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

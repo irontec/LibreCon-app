@@ -1,0 +1,170 @@
+production:
+  class: \Librecon\Model\Assistants
+  fields:
+    name:
+      title: ngettext('Name', 'Names', 1)
+      type: text
+      required: true
+      default: true
+    lastName:
+      title: _('Last name')
+      type: text
+      required: true
+    email:
+      title: ngettext('Email', 'Emails', 1)
+      type: text
+      required: true
+    company:
+      title: _('Company')
+      type: text
+    cellPhone:
+      title: _('Cell phone')
+      type: text
+    position:
+      title: _('Position')
+      type: text
+    picture:
+      title: ngettext('Picture', 'Pictures', 1)
+      type: file
+      source:
+        data: fso
+        size_limit: 20M
+        options:
+          download:
+            external: true
+            type: command
+            target: PictureDownload_command
+            icon: ui-silk-bullet-disk
+            title: _("Download file")
+            onNull: hide
+          upload:
+            type: command
+            target: PictureUpload_command
+            title: _("Upload file")
+            class: qq-uploader
+            onNull: show
+          preview:
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            external: 1
+            props:
+              width: 150
+              height: 150
+              crop: false
+            onNull: hide
+          previewList:
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            listController: 1
+            external: 1
+            props:
+              width: 30
+              height: 30
+              crop: false
+            onNull: hide
+    address:
+      title: ngettext('Address', 'Addresss', 1)
+      type: text
+    location:
+      title: _('Location')
+      type: text
+    country:
+      title: ngettext('Country', 'Countries', 1)
+      type: text
+    codePostal:
+      title: _('Code postal')
+      type: text
+    uuid:
+      title: _('Uuid')
+      type: text
+    code:
+      title: _('Code')
+      type: text
+    secretHash:
+      title: _('Secret hash')
+      type: text
+    lastModified:
+      title: _('Last modified')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source:
+        control: datetime
+        settings:
+          disabled: 'false'
+    interests:
+      title: _('Interests')
+      type: text
+    device: 
+      title: _('Dispositivo')
+      type: select
+      defaultValue: 'android'
+      source: 
+        data: inline
+        values: 
+          'android': 
+            title: _("Android")
+          'ios': 
+            title: _("iOS")
+            
+    lang: 
+      title: _('Idioma')
+      type: select
+      defaultValue: 'es'
+      source: 
+        data: inline
+        values: 
+          'es': 
+            title: _("Esp")
+          'eu': 
+            title: _("Eus")
+          'en': 
+            title: _("Eng")
+    mailOne:
+      title: Envío Primer Mail
+      type: checkbox
+      readonly: true
+      defaultValue: 0
+      source:
+        data: inline
+        values:
+          '0':
+            title: _("No")
+          '1':
+            title: _("Yes")
+    
+    mailTwo:
+      title: Envío Segundo Mail
+      type: checkbox
+      readonly: true
+      defaultValue: 0
+      source:
+        data: inline
+        values:
+          '0':
+            title: _("No")
+          '1':
+            title: _("Yes")
+    
+    mailRemember:
+      title: Recordatorios enviados
+      readonly: true
+
+    hidden:
+      title: _('Oculto')
+      type: checkbox
+      defaultValue: 0
+      source:
+        data: inline
+        values:
+          '0':
+            title: _("No")
+          '1':
+            title: _("Yes")
+testing:
+  _extends: production
+staging:
+  _extends: production
+development:
+  _extends: production

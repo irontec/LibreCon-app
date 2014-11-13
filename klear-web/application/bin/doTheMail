@@ -1,0 +1,3 @@
+#!/bin/bash
+/usr/bin/php /vagrant/klear-web/application/bin/cli.php -a default/console/mailing/target/$1 -e development
+

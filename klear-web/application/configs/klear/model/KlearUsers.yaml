@@ -1,0 +1,53 @@
+production: 
+  class: \Librecon\Model\KlearUsers
+  fields: 
+    login: 
+      title: _('Login')
+      type: text
+      required: true
+      default: true
+    email: 
+      title: ngettext('Email', 'Emails', 1)
+      type: text
+      required: true
+    pass: 
+      title: _('Pass')
+      type: password
+      required: true
+      adapter: Blowfish
+    active: 
+      title: _('Active')
+      type: select
+      defaultValue: 1
+      source: 
+        data: inline
+        values: 
+          '0': 
+            title: _("No")
+          '1': 
+            title: _("Yes")
+    createdOn: 
+      title: _('Created on')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+          
+    KlearUsersRoles:
+      title: _("Roles")
+      type: multiselect
+      source:
+        data: mapper
+        config:
+          relationMapper: \Librecon\Mapper\Sql\KlearUsersRoles
+          relationProperty: KlearRole
+          relatedMapperName: \Librecon\Mapper\Sql\KlearRoles
+          relatedFieldName: name
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

@@ -1,0 +1,11 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    font-size: 13px;
+}
+
+td.ui-widget-content ._fieldOption, .ui_tpicker_second_label, .ui_tpicker_second {
+	display: none;
+}
+
+td.ui-widget-content.options ._fieldOption {
+	display: inline;
+}

@@ -1,0 +1,133 @@
+production: 
+  class: \Librecon\Model\Speaker
+  fields: 
+    name: 
+      title: ngettext('Name', 'Names', 1)
+      type: text
+      required: true
+      default: true
+    picture: 
+      title: ngettext('Picture', 'Pictures', 1)
+      type: file
+      source: 
+        data: fso
+        size_limit: 20M
+        options: 
+          download: 
+            external: true
+            type: command
+            target: PictureDownload_command
+            icon: ui-silk-bullet-disk
+            title: _("Download file")
+            onNull: hide
+          upload: 
+            type: command
+            target: PictureUpload_command
+            title: _("Upload file")
+            class: qq-uploader
+            onNull: show
+          preview: 
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            external: 1
+            props: 
+              width: 150
+              height: 150
+              crop: false
+            onNull: hide
+          previewList: 
+            target: PicturePreview_command
+            type: command
+            class: filePreview
+            listController: 1
+            external: 1
+            props: 
+              width: 30
+              height: 30
+              crop: false
+            onNull: hide
+    description: 
+      title: ngettext('Description', 'Descriptions', 1)
+      type: textarea
+    company: 
+      title: _('Company')
+      type: text
+    lastModified: 
+      title: _('Last modified')
+      type: picker
+      defaultValue: CURRENT_TIMESTAMP
+      source: 
+        control: datetime
+        settings: 
+          disabled: 'false'
+    link1: 
+      title: _('Link1')
+      type: text
+    link1Type: 
+      title: _('Link1 type')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Links
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+    link2: 
+      title: _('Link2')
+      type: text
+    link2Type: 
+      title: _('Link2 type')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Links
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+    link3: 
+      title: _('Link3')
+      type: text
+    link3Type: 
+      title: _('Link3 type')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Links
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+    link4: 
+      title: _('Link4')
+      type: text
+    link4Type: 
+      title: _('Link4 type')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Links
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name
+        'null': _("Unasigned")
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production

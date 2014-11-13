@@ -1,0 +1,36 @@
+production: 
+  class: \Librecon\Model\RelTagScheduele
+  fields: 
+    idTag: 
+      title: _('Id tag')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Tags
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name_${lang}
+        'null': _("Unasigned")
+      default: true
+    idScheduele: 
+      title: _('Id scheduele')
+      type: select
+      source: 
+        data: mapper
+        config: 
+          mapperName: \Librecon\Mapper\Sql\Schedule
+          fieldName: 
+            fields: 
+              - name
+            template: '%name%'
+          order: name_${lang}
+        'null': _("Unasigned")
+testing: 
+  _extends: production
+staging: 
+  _extends: production
+development: 
+  _extends: production
