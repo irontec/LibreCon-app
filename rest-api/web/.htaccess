@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    SetEnv APPLICATION_ENV production
+
+    Options -MultiViews -Indexes
+
+    AddOutputFilterByType DEFLATE application/json
+
+    RewriteEngine On
+    RewriteBase /prod-route
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

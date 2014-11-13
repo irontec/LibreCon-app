@@ -1,0 +1,42 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<iframe style="display:none" height="0" width="0" id="loader" frameborder="0"></iframe>
+
+<script>(function(){
+  //Defining enviroments
+  var isiOS = navigator.userAgent.match('iPad') || navigator.userAgent.match('iPhone') || navigator.userAgent.match('iPod');
+  var isAndroid = navigator.userAgent.match('Android');
+
+  var fallbackLink = "http://fallback/url";
+
+  var customURL = "{{ 'scheme://app/params?hash=' ~ hash }}";
+  var chromeURL4Android = "{{ 'intent://scan/#Intent;scheme=customscheme;package=com.package.name;action=android.intent.action.VIEW;S.hash=' ~ hash }};end";
+
+  var appStoreLink = "http://appStoreLink";
+  var playStoreLink = "http://playStoreLink";
+
+
+  // Mobile
+  if (isiOS || isAndroid) {
+
+    if (isAndroid && navigator.userAgent.match(/Chrome/i)) {
+      window.location.replace(chromeURL4Android);
+      return;
+    }
+
+    alert(customURL);
+    document.getElementById('loader').src = customURL;
+    fallbackLink = isAndroid ? playStoreLink:appStoreLink;
+  }
+
+  alert("Redirecting to: "  + fallbackLink);
+  window.setTimeout(function (){ window.location.replace(fallbackLink); }, 1);
+
+
+})();</script>
+</body>
+</html>

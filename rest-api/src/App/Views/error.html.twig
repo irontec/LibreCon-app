@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    html{
+      background: #0095B1;
+    }
+    h1, h2{
+      text-align: center;
+      color: white;
+    }
+    h1{
+      font-size: 80px;
+      font-family: 'Open Sans', Arial, sans-serif;
+    }
+    h2{
+      font-size: 40px;
+      font-family: 'Open Sans', Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Error</h1>
+  <h2>Access Forbidden</h2>
+  <script>
+    var fallbackLink = "fallback/url";
+    alert("Redirecting to: "  + fallbackLink);
+    window.setTimeout(function (){ window.location.replace(fallbackLink); }, 1);
+  </script>
+</body>
+</html>
