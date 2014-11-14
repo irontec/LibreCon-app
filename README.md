@@ -8,7 +8,7 @@ Las tecnologías abiertas en general y el Software Libre en particular constituy
 - Base de datos MySQL (PHING)
 - API REST ([Silex](http://silex.sensiolabs.org/))
 - Gestor de contenidos (basado en [Klear](https://github.com/irontec/klear))
-- Aplicación nativa iOS
+- Aplicación nativa [iOS](https://github.com/irontec/LibreCon-app/tree/master/mobile/iOS)
 - Aplicación nativa [Android](https://github.com/irontec/LibreCon-app/tree/master/mobile/android)
 
 **Free Software, Hell Yeah!**
