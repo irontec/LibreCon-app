@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.irontec.librecon.fragments.LoginPageOneFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/grey_text_color"
+            android:text="@string/tutorial" />
+
+        <TextView
+            android:id="@+id/resendTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/grey_text_color"
+            android:text="@string/resend_tutorial"
+            android:visibility="gone"/>
+
+        <include layout="@layout/layout_loading" />
+
+        <com.irontec.librecon.ui.FloatLabelLayout
+            android:layout_below="@+id/welcomeText"
+            android:id="@+id/floatLabelLayout"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            app:floatLabelTextAppearance="@style/TextAppearance.Librecon.FloatLabel">
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/edit_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_code"
+                android:singleLine="true"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:password="true"
+                android:inputType="textNoSuggestions"
+                android:imeOptions="actionSend" />
+
+        </com.irontec.librecon.ui.FloatLabelLayout>
+
+        <com.irontec.librecon.ui.FloatLabelLayout
+            android:layout_below="@+id/welcomeText"
+            android:id="@+id/floatLabelEmailLayout"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            app:floatLabelTextAppearance="@style/TextAppearance.Librecon.FloatLabel"
+            android:visibility="gone">
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_email"
+                android:singleLine="true"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionSend" />
+
+        </com.irontec.librecon.ui.FloatLabelLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_above="@+id/resendCode"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grey_button_selector"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/enterButton"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button_selector"
+            android:text="@string/enter" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/resendCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="@string/resend_code" />
+</RelativeLayout>

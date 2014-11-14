@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.irontec.librecon.MeetingDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:paddingTop="32dp"
+            android:background="@color/librecon_main_blue">
+
+            <ImageView
+                android:id="@+id/assistant_picture"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/assistant_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textAllCaps="true"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/assistant_picture" />
+
+            <TextView
+                android:id="@+id/assistant_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/assistant_name" />
+
+            <TextView
+                android:id="@+id/assistant_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:ellipsize="end"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/assistant_company" />
+
+        </RelativeLayout>
+
+        <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            app:spb_sections_count="4"
+            app:spb_color="#e15e34"
+            app:spb_speed="1.0"
+            app:spb_stroke_width="4dp"
+            app:spb_stroke_separator_length="4dp"
+            android:visibility="invisible"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/librecon_main_blue"
+                android:text="@string/profile_interest" />
+
+            <LinearLayout
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:id="@+id/interestLayout"
+                android:clickable="false"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_margin="16dp"
+                android:id="@+id/send_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/send_request"
+                android:textColor="@android:color/white"
+                android:background="@drawable/blue_button_selector"
+                android:layout_weight="1"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

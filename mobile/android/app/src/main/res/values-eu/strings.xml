@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LibreCon</string>
+
+    <!-- Navigation Drawer -->
+    <string name="title_schedule">Agenda</string>
+    <string name="title_search">Bisitariak</string>
+    <string name="title_meetings">Bilerak</string>
+    <string name="title_places">Kokapenak</string>
+    <string name="title_sponsors">Babesleak</string>
+    <string name="title_photocall">Photo Call-a</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+    <!-- AB Actions -->
+    <string name="action_settings">Doitzea</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_about">Honi buruz</string>
+    <string name="title_activity_about">Honi buruz</string>
+    <string name="title_activity_code">Kodea</string>
+    <!-- CodeActivity -->
+    <string name="user_code">Sarbide kodea</string>
+    <string name="user_email">Emaila</string>
+    <!-- ProfileActivity -->
+    <string name="title_activity_profile"></string>
+    <!-- Common Texts -->
+    <string name="dia_11">11. Eguna</string>
+    <string name="dia_12">12. Eguna</string>
+    <string name="search">Bilatu</string>
+    <string name="search_hint">Adibidez: Asier Fernandez</string>
+    <string name="speaker">Hizlariak:</string>
+    <string name="links">Loturak:</string>
+    <string name="cancel">Ezeztatu</string>
+    <string name="done">Gorde</string>
+    <string name="accept">Onartu</string>
+    <string name="discard">Deuseztatu</string>
+    <string name="see_more">Gehiago ikusi</string>
+    <string name="request">Eskatu</string>
+    <string name="welcome">Ongi etorri Librecon \'14ra</string>
+    <string name="guest">Gonbidatua</string>
+    <string name="enter">Sartu</string>
+    <string name="resend_code">Kodea birbidali</string>
+    <string name="send">Bidali</string>
+    <string name="back">Itzuli</string>
+    <!-- Meeting status -->
+    <string name="meeting_pending_status"><![CDATA[Egoera: <font color="#ff8800"> Zain</font>]]></string>
+    <string name="meeting_accepted_status"><![CDATA[Egoera: <font color="#99cc00"> Onartua</font>]]></string>
+    <string name="meeting_canceled_status"><![CDATA[Egoera: <font color="#ff4444"> Ezeztatua</font>]]></string>
+    <string name="meeting_phone">telefonoa</string>
+    <string name="meeting_email">emaila</string>
+    <string name="meeting_shared_info">Banatutako datuak</string>
+    <string name="meeting_now">Oraintxe bertan</string>
+    <string name="meeting_half">Ordu erdi</string>
+    <string name="meeting_one">Ordu bat</string>
+    <string name="meeting_point">Non: Meeting point</string>
+    <string name="empty_meetings">¡Adi!\n\nEz duzu bilerarik.\nParte-hartzaileen profilak bisita itzazu eta bilera eskaera egin interesgarriak iruditu zaizkizun horiei</string>
+    <!-- Meetings list -->
+    <string name="from">Eskatzailea: %1$s</string>
+    <string name="from_you">Eskatzailea: Zu</string>
+    <string name="to">Norentzat: %1$s</string>
+    <string name="to_you">Norentzat: Zu</string>
+    <string name="created_at">Sorrera data: %1$s</string>
+    <string name="responded_at">Erantzun data: %1$s</string>
+    <string name="now">Noiz: Orain</string>
+    <string name="half">Noiz: Ordu erdi batean</string>
+    <string name="hour">Noiz: Ordu batean</string>
+    <!-- Meeting details -->
+    <string name="moment_config">-en bildu:</string>
+    <string name="moment_responded_at">Erantzunaren data:</string>
+    <string name="moment_created_at">Sorrera data:</string>
+    <string name="info_config">Informaziorik banatu nahi al duzu?</string>
+    <string name="info_phone">Telefonoa</string>
+    <string name="info_email">Emaila</string>
+    <string name="reject">Ukatu</string>
+    <string name="shared_info">Banatutako datuak: %1$s</string>
+    <string name="accepted">Onartua</string>
+    <!-- Schedules -->
+    <string name="schedule_day_one">Ast 11, %1$s - %2$s</string>
+    <string name="schedule_day_two">Astz 12, %1$s - %2$s</string>
+    <!-- Profile -->
+    <string name="profile_info">Informazioa:</string>
+    <string name="profile_links">Loturak:</string>
+    <string name="profile_tags">Markak:</string>
+    <string name="send_request">Bilera eskatu</string>
+    <string name="profile_interest">Honetan dauka interesa:</string>
+    <string name="request_sent">Bidalitako gonbitea</string>
+    <!-- Screen names -->
+    <string name="title_activity_meeting_detail"></string>
+    <string name="title_activity_schedule_detail">Ekitaldi xehetasuna</string>
+    <!-- Dialog Request meeting -->
+    <string name="dialog_title">Bilera eskatu</string>
+    <string name="dialog_message">Bilerarik eskatu nahi al duzu %1$s-rekin?</string>
+    <!-- Places view -->
+    <string name="txoko">txoko</string>
+    <string name="expositor">erakusketaria</string>
+    <string name="title_activity_login_pager">LoginPagerActivity</string>
+    <string name="hello_world">Kaixo mundua!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Status Code -->
+    <string name="http_500">Akats bat suertatu da zerbitzariarekin konektatzerakoan. Beranduago saia zaitez</string>
+    <string name="http_error">Akats bat izan da. Egiaztatu datuak zuzenak diren ala ez edo beranduago saia zaitez</string>
+    <string name="http_200_resend_code">Ondi jasotako eskaria. Ahal bezain laster bidaliko dizugu kodea zure emailera.</string>
+    <string name="title_activity_assistant_profile">AssistantProfileActivity</string>
+    <string name="http_406_meetings">Zain duzu bilera eskaera bat pertsona honekin.
+        \n\nEgungo eskaera onartu ala ukatzen duenean eska ahal izango duzu beste bilera bat pertsona honekin.</string>
+    <!-- Tutorials -->
+    <string name="resend_tutorial">Sar ezazu zure emaila eta erregistraturiko erabiltzailearekin egokitzen den kodea birbidaliko dizugu.</string>
+     <string name="tutorial">Aplikaziora sartu ahal izateko beharrezkoa da ekitaldia hasi aurretik zure emailera bidali genizun kodea sartzea. Ez izatekotan gonbidatu gisa sar zaitezke edo bisitari bezala eman dezakezu izena LibreCon webgunean.</string>
+    <string name="tutorial_again">Ai! Badirudi erabiltzeko beharrezkoa den kodea eskatzen duen aplikazioaren atal batean sartu zarela.\n\nLibreConera joateko webgunean eman baduzu izena 
+    zure posta elektronikoan izan beharko zenuke kodea, bestela, webgunean eman ezazu izena.
+    Azkarra eta erreza da!</string>
+    <string name="title_activity_place_detail"></string>
+</resources>

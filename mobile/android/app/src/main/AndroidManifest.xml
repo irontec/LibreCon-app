@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.irontec.librecon" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.irontec.librecon.gcmclient.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.irontec.librecon.gcmclient.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".DaoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Librecon" >
+
+        <!-- GCM Receiver -->
+        <receiver
+            android:name=".notifications.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.irontec.librecon.gcmclient" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".notifications.GcmIntentService" />
+
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/ab_librecon_icon"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CodeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Librecon.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".SpeakerProfileActivity"
+            android:icon="@drawable/ab_librecon_icon"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay" />
+        <activity
+            android:name=".ScheduleDetailActivity"
+            android:icon="@drawable/ab_librecon_icon"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay" />
+        <activity
+            android:name=".MeetingDetailActivity"
+            android:icon="@drawable/ab_librecon_icon"
+            android:label="@string/title_activity_meeting_detail"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay" >
+        </activity>
+        <activity
+            android:name=".LoginPagerActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Librecon.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AssistantProfileActivity"
+            android:icon="@drawable/ab_librecon_icon"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:icon="@drawable/ab_librecon_icon"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".PlaceDetailActivity"
+            android:icon="@drawable/ab_librecon_icon"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay"
+            android:label="@string/title_activity_place_detail" >
+        </activity>
+    </application>
+
+</manifest>

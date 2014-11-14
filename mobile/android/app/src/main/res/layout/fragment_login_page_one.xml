@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icono_blanco_400" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/welcome" />
+
+    <LinearLayout
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/enterAnonious"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grey_button_selector"
+            android:text="@string/guest" />
+
+        <Button
+            android:id="@+id/enterStep2"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button_selector"
+            android:text="@string/enter" />
+
+    </LinearLayout>
+
+</RelativeLayout>

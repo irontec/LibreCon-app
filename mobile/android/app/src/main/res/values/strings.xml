@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LibreCon</string>
+
+    <!-- Navigation Drawer -->
+    <string name="title_schedule">Agenda</string>
+    <string name="title_search">Asistentes</string>
+    <string name="title_meetings">Reuniones</string>
+    <string name="title_places">Ubicaciones</string>
+    <string name="title_sponsors">Patrocinadores</string>
+    <string name="title_photocall">PhotoCall</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+    <!-- AB Actions -->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_about">Acerca de</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="title_activity_code">Código</string>
+    <!-- CodeActivity -->
+    <string name="user_code">Código de acceso</string>
+    <string name="user_email">Email</string>
+    <!-- ProfileActivity -->
+    <string name="title_activity_profile"></string>
+    <!-- Common Texts -->
+    <string name="dia_11">Día 11</string>
+    <string name="dia_12">Día 12</string>
+    <string name="search">Buscar</string>
+    <string name="search_hint">Ej: Asier Fernandez</string>
+    <string name="speaker">Ponentes:</string>
+    <string name="links">Enlaces:</string>
+    <string name="cancel">Cancelar</string>
+    <string name="done">Guardar</string>
+    <string name="accept">Aceptar</string>
+    <string name="discard">Descartar</string>
+    <string name="see_more">Ver más</string>
+    <string name="request">Solicitar</string>
+    <string name="welcome">Bienvenido a la Librecon \'14</string>
+    <string name="guest">Invitado</string>
+    <string name="enter">Entrar</string>
+    <string name="resend_code">reenviar código</string>
+    <string name="send">Enviar</string>
+    <string name="back">Volver</string>
+    <!-- Meeting status -->
+    <string name="meeting_pending_status"><![CDATA[Estado: <font color="#ff8800"> Pendiente</font>]]></string>
+    <string name="meeting_accepted_status"><![CDATA[Estado: <font color="#99cc00"> Aceptada</font>]]></string>
+    <string name="meeting_canceled_status"><![CDATA[Estado: <font color="#ff4444"> Cancelada</font>]]></string>
+    <string name="meeting_phone">teléfono</string>
+    <string name="meeting_email">email</string>
+    <string name="meeting_shared_info">Datos compartidos</string>
+    <string name="meeting_now">Ahora mismo</string>
+    <string name="meeting_half">Media hora</string>
+    <string name="meeting_one">Una hora</string>
+    <string name="meeting_point">Donde: Meeting point</string>
+    <!-- Meetings list -->
+    <string name="from">Solicitante: %1$s</string>
+    <string name="from_you">Solicitante: Tú</string>
+    <string name="to">Para: %1$s</string>
+    <string name="to_you">Para: Ti</string>
+    <string name="created_at">Fecha creación: %1$s</string>
+    <string name="responded_at">Fecha respuesta: %1$s</string>
+    <string name="now">Cuando: Ahora</string>
+    <string name="half">Cuando: En media hora</string>
+    <string name="hour">Cuando: En una hora</string>
+    <string name="empty_meetings">¡Protip!\n\nNo tienes ninguna reunión.\nVisita los perfiles de los asistentes y solicita reuniones con aquellos que te resulten de interés.</string>
+    <!-- Meeting details -->
+    <string name="moment_config">Reunirse en:</string>
+    <string name="moment_responded_at">Fecha de respuesta:</string>
+    <string name="moment_created_at">Fecha de creación:</string>
+    <string name="info_config">¿Quieres compartir alguna información?</string>
+    <string name="info_phone">Teléfono</string>
+    <string name="info_email">Email</string>
+    <string name="reject">Rechazar</string>
+    <string name="shared_info">Datos compartidos: %1$s</string>
+    <string name="accepted">Aceptada</string>
+    <!-- Schedules -->
+    <string name="schedule_day_one">Mar 11, %1$s - %2$s</string>
+    <string name="schedule_day_two">Míe 12, %1$s - %2$s</string>
+    <!-- Profile -->
+    <string name="profile_info">Información:</string>
+    <string name="profile_links">Enlaces:</string>
+    <string name="profile_tags">Tags:</string>
+    <string name="send_request">Solicitar reunión</string>
+    <string name="profile_interest">Tiene interés en:</string>
+    <string name="request_sent">Invitación enviada</string>
+    <!-- Screen names -->
+    <string name="title_activity_meeting_detail"></string>
+    <string name="title_activity_schedule_detail">Detalle de evento</string>
+    <!-- Dialog Request meeting -->
+    <string name="dialog_title">Solicitar reunión</string>
+    <string name="dialog_message">¿Deseas solicitar una reunión con %1$s?</string>
+    <!-- Places view -->
+    <string name="txoko">txoko</string>
+    <string name="expositor">expositor</string>
+    <string name="title_activity_login_pager">LoginPagerActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Status Code -->
+    <string name="http_500">Hubo un problema al conectarse al servidor. Intentalo de nuevo más tarde</string>
+    <string name="http_error">Hubo un problema. Comprueba que los datos son correctos o intentalo de nuevo más tarde</string>
+    <string name="http_200_resend_code">Petición recibida con éxito. Te mandaremos el código a tu email lo antes posible.</string>
+    <string name="title_activity_assistant_profile">AssistantProfileActivity</string>
+    <string name="http_406_meetings">Tienes una petición de reunión pendiente con esta persona.
+        \n\nPodrás volver a solicitar una reunión cuando esta persona acepte o rechaze la petición actual.</string>
+    <!-- Tutorials -->
+    <string name="resend_tutorial">Introduce tu email y te reenviaremos el código que corresponda con tu usario registrado.</string>
+    <string name="tutorial">Para poder acceder a la aplicación es necesario introducir el código que aparece en el email que te enviamos antes del comienzo del evento. Si no dispones de uno puedes entrar como invitado o registrarte como asistente en la web de la LibreCon.</string>
+    <string name="tutorial_again">¡Ops! Parece ser que has encontrado una parte de la aplicación que
+    requiere de un código para poder usarse.\n\nSi te has registrado en la web para asistir a la LibreCon
+    deberías de tener el código en tu cuenta de correo electrónico, de lo contrario, inscribete en la web.
+    !Es rápido y sencillo!</string>
+    <string name="title_activity_place_detail"></string>
+
+</resources>

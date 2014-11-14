@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+    <string name="ga_logLevel">verbose</string>
+    <integer name="ga_dispatchPeriod">3</integer>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <screenName name="com.irontec.librecon.fragments.AssistantsFragment">
+        LibreCon Assistants
+    </screenName>
+    <screenName name="com.irontec.librecon.fragments.MeetingsFragment">
+        LibreCon Meetings
+    </screenName>
+    <screenName name="com.irontec.librecon.fragments.PhotoCallFragment">
+        LibreCon PhotoCall
+    </screenName>
+    <screenName name="com.irontec.librecon.fragments.PlacesFragment">
+        LibreCon Places
+    </screenName>
+    <screenName name="com.irontec.librecon.fragments.RequestCodeFragment">
+        LibreCon Guest Request Code
+    </screenName>
+    <screenName name="com.irontec.librecon.fragments.ScheduleFragment">
+        LibreCon Schedules
+    </screenName>
+    <screenName name="com.irontec.librecon.fragments.SponsorsFragment">
+        LibreCon Sponsors
+    </screenName>
+    <screenName name="com.irontec.librecon.AssistantProfileActivity">
+        LibreCon Assistant Profile
+    </screenName>
+    <screenName name="com.irontec.librecon.LoginPagerActivity">
+        LibreCon Login
+    </screenName>
+    <screenName name="com.irontec.librecon.PlaceDetailActivity">
+        LibreCon Place Detail
+    </screenName>
+    <screenName name="com.irontec.librecon.ScheduleDetailActivity">
+        LibreCon Schedule Detail
+    </screenName>
+    <screenName name="com.irontec.librecon.SpeakerProfileActivity">
+        LibreCon Speaker Detail
+    </screenName>
+    <screenName name="com.irontec.librecon.MeetingDetailActivity">
+        LibreCon Meeting Detail
+    </screenName>
+    <screenName name="com.irontec.librecon.MainActivity">
+        LibreCon Main
+    </screenName>
+    <screenName name="com.irontec.librecon.AboutActivity">
+        LibreCon About
+    </screenName>
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">YOUR TRACKER ID</string>
+</resources>

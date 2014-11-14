@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="librecon_main">#00aabf</color>
+    <color name="librecon_main_black">#1C1E21</color>
+    <color name="librecon_main_blue">#00a9bf</color>
+    <color name="librecon_main_blue_dark">#008e9e</color>
+    <color name="librecon_main_blue_pressed">#00c7bf</color>
+    <color name="librecon_main_orange">#e15e34</color>
+    <color name="librecon_main_orange_dark">#cc5530</color>
+    <color name="librecon_main_veige">#eaeaea</color>
+    <color name="librecon_main_black_translucid">#D92d2d2d</color>
+    <color name="librecon_meeting_black">#373737</color>
+    <color name="librecon_main_grey">#292929</color>
+    <color name="librecon_main_grey_pressed">#494949</color>
+    <color name="librecon_black_translucid">#D9000000</color>
+
+    <!-- Navigation Drawer Notification States -->
+    <color name="nav_notif_active">#00aabf</color>
+    <color name="nav_notif_idle">#1C1E21</color>
+    <color name="float_label">@color/librecon_main_blue</color>
+    <color name="nav_items_background">#F7F7F7</color>
+    <color name="nav_main_background">#F7F7F7</color>
+
+    <!-- Tab text color -->
+    <color name="tab_text_disabled">#99FFFFFF</color>
+
+    <!-- Grey text color -->
+    <color name="grey_text_color">#7e7e7e</color>
+
+    <!-- Pressed buttons colors -->
+    <color name="green_button_pressed">#afea00</color>
+    <color name="red_button_pressed">#ff7c7c</color>
+
+    <integer-array name="progressbar_background_colors">
+        <item>@color/librecon_main_orange</item>
+        <item>@color/librecon_main_orange_dark</item>
+    </integer-array>
+</resources>

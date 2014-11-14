@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/intermediates/bundles/debug/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/src/androidTest/assets" />
+    </dataSet>
+
+</merger>

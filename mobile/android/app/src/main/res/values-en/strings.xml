@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LibreCon</string>
+
+    <!-- Navigation Drawer -->
+    <string name="title_schedule">Schedule</string>
+    <string name="title_search">Attendees</string>
+    <string name="title_meetings">Meetings</string>
+    <string name="title_places">Locations</string>
+    <string name="title_sponsors">Sponsors</string>
+    <string name="title_photocall">Photo Call</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+    <!-- AB Actions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_code">Code</string>
+    <string name="title_activity_about">About</string>
+    <!-- CodeActivity -->
+    <string name="user_code">Access Code</string>
+    <string name="user_email">Email</string>
+    <!-- ProfileActivity -->
+    <string name="title_activity_profile"></string>
+    <!-- Common Texts -->
+    <string name="dia_11">Day 11</string>
+    <string name="dia_12">Day 12</string>
+    <string name="search">Search</string>
+    <string name="search_hint">i.e.: Asier Fernandez</string>
+    <string name="speaker">Speakers:</string>
+    <string name="links">Links:</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Save</string>
+    <string name="accept">Accept</string>
+    <string name="discard">Download</string>
+    <string name="see_more">See more</string>
+    <string name="request">Request</string>
+    <string name="welcome">Welcome to Librecon \'14</string>
+    <string name="guest">Guest
+    </string>
+    <string name="enter">Enter</string>
+    <string name="resend_code">resend code</string>
+    <string name="send">Send</string>
+    <string name="back">Back</string>
+    <!-- Meeting status -->
+    <string name="meeting_pending_status"><![CDATA[Status: <font color="#ff8800"> Pending</font>]]></string>
+    <string name="meeting_accepted_status"><![CDATA[Status: <font color="#99cc00"> Accepted</font>]]></string>
+    <string name="meeting_canceled_status"><![CDATA[Status: <font color="#ff4444"> Canceled</font>]]></string>
+    <string name="meeting_phone">phone</string>
+    <string name="meeting_email">email</string>
+    <string name="meeting_shared_info">Shared info</string>
+    <string name="meeting_now">Right now</string>
+    <string name="meeting_half">Half an hour</string>
+    <string name="meeting_one">An hour</string>
+    <string name="meeting_point">Where: Meeting point</string>
+    <string name="empty_meetings">¡Protip!\n\n.You don\'t have any meetings.\nYou can visit the profiles of the attendees and request meetings with those important for you</string>
+    <!-- Meetings list -->
+    <string name="from">From: %1$s</string>
+    <string name="from_you">From: You</string>
+    <string name="to">To: %1$s</string>
+    <string name="to_you">To: You</string>
+    <string name="created_at">Creation date: %1$s</string>
+    <string name="responded_at">Response date: %1$s</string>
+    <string name="now">When: Now</string>
+    <string name="half">When: In half an hour</string>
+    <string name="hour">When: In an hour</string>
+    <!-- Meeting details -->
+    <string name="moment_config">Meet at:</string>
+    <string name="moment_responded_at">Response date:</string>
+    <string name="moment_created_at">Creation date:</string>
+    <string name="info_config">Is there any information you want to share?</string>
+    <string name="info_phone">Phone</string>
+    <string name="info_email">Email</string>
+    <string name="reject">Reject</string>
+    <string name="shared_info">Shared info: %1$s</string>
+    <string name="accepted">Accepted</string>
+    <!-- Schedules -->
+    <string name="schedule_day_one">Day 11, %1$s - %2$s</string>
+    <string name="schedule_day_two">Day 12, %1$s - %2$s</string>
+    <!-- Profile -->
+    <string name="profile_info">Information:</string>
+    <string name="profile_links">Links:</string>
+    <string name="profile_tags">Tags:</string>
+    <string name="send_request">Meeting request</string>
+    <string name="profile_interest">Interested in:</string>
+    <string name="request_sent">Invitation was sent</string>
+    <!-- Screen names -->
+    <string name="title_activity_meeting_detail"></string>
+    <string name="title_activity_schedule_detail">Event detail</string>
+    <!-- Dialog Request meeting -->
+    <string name="dialog_title">Meeting request</string>
+    <string name="dialog_message">Do you want to ask %1$s for a meeting?</string>
+    <!-- Places view -->
+    <string name="txoko">txoko</string>
+    <string name="expositor">exhibitor</string>
+    <string name="title_activity_login_pager">LoginPagerActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Status Code -->
+    <string name="http_500">An error occurred while connecting to the server. Try it later</string>
+    <string name="http_error">An error occurred. Check if the info is correct or try it again later</string>
+    <string name="http_200_resend_code">Petition was successfully received. We will send the code to your email as soon as possible.</string>
+    <string name="title_activity_assistant_profile">AssistantProfileActivity</string>
+    <string name="http_406_meetings">You have a pending request with this person.
+        \n\nYou will able to ask for another meeting when this person accepts or rejects the actual one.</string>
+    <!-- Tutorials -->
+    <string name="resend_tutorial">Introduce your email and we will resend you the code corresponding to the registered user.</string>
+     <string name="tutorial">To access application it is necessary to enter the code we already sent to your email even before the event began. If you do not have one, you can enter as invited or check in as attendee at LibreCon website.</string>
+    <string name="tutorial_again">¡Ops! It seems you found a site in the application where a code is required for its use.\n\nIf you applied through the website to attend LibreCon
+    you should have the code in your email, otherwise, apply through the website. It is quick and easy!</string>
+    <string name="title_activity_place_detail"></string>
+</resources>

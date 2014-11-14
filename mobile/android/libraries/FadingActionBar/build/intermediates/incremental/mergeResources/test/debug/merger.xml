@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/intermediates/bundles/debug/res" >
+            <file
+                name="fab__gradient"
+                path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/intermediates/bundles/debug/res/drawable/fab__gradient.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="fab__gradient_light"
+                path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/intermediates/bundles/debug/res/drawable/fab__gradient_light.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="fab__header_container"
+                path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/intermediates/bundles/debug/res/layout/fab__header_container.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fab__listview_container"
+                path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/intermediates/bundles/debug/res/layout/fab__listview_container.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fab__scrollview_container"
+                path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/intermediates/bundles/debug/res/layout/fab__scrollview_container.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fab__webview_container"
+                path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/intermediates/bundles/debug/res/layout/fab__webview_container.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/src/androidTest/res" />
+        <source path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/generated/res/rs/test/debug" />
+        <source path="/Users/afernandez/Documents/proyectos/newlibrecon/mobile/android/librecon2/libraries/FadingActionBar/build/generated/res/generated/test/debug" />
+    </dataSet>
+
+</merger>

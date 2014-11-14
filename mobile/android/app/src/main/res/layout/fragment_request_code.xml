@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/grey_text_color"
+            android:text="@string/tutorial_again" />
+
+        <include layout="@layout/layout_loading" />
+
+        <com.irontec.librecon.ui.FloatLabelLayout
+            android:layout_below="@+id/welcomeText"
+            android:id="@+id/floatLabelLayout"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            app:floatLabelTextAppearance="@style/TextAppearance.Librecon.FloatLabel">
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/edit_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_code"
+                android:singleLine="true"
+                android:textColorHint="#00a9bf"
+                android:password="true"
+                android:textColor="#00a9bf"
+                android:textSize="16sp"
+                android:inputType="textNoSuggestions"
+                android:imeOptions="actionSend" />
+
+        </com.irontec.librecon.ui.FloatLabelLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/enterButton"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="2dp"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_button_selector"
+                android:text="@string/enter" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

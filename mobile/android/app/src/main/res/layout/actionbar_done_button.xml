@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_done"
+    style="?android:actionButtonStyle"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/librecon_main_blue" >
+
+    <TextView
+        style="?android:actionBarTabTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_accept"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical|left"
+        android:paddingRight="20dp"
+        android:textColor="@android:color/white"
+        android:text="@string/accept" />
+
+</FrameLayout>
