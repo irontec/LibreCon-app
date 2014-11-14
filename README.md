@@ -1,4 +1,4 @@
-# LibreCon
+# LibreCon 2014
 <br>
 >LIBRECON 2014: EL MAYOR ENCUENTRO PARA LOS AGENTES DEL SOFTWARE LIBRE Y OPEN TECHNOLOGIES.<br>
 LibreCon 2014 se celebrará el próximo 11 y 12 de noviembre en Bilbao y recoge el testigo de las tres ediciones anteriores de la Libre Software World Conference, LSWC. Este año se plantea un gran evento cuyo principal objetivo será la creación de negocio y empleo en todos los sectores de la sociedad a través de las tecnologías libres, la innovación y el emprendimiento.
