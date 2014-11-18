@@ -11,4 +11,14 @@ Las tecnologías abiertas en general y el Software Libre en particular constituy
 - Aplicación nativa [iOS](https://github.com/irontec/LibreCon-app/tree/master/mobile/iOS)
 - Aplicación nativa [Android](https://github.com/irontec/LibreCon-app/tree/master/mobile/android)
 
+### Licencia
+```
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+```
+
 **Free Software, Hell Yeah!**
