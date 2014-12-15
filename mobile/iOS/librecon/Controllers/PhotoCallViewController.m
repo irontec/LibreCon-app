@@ -108,7 +108,7 @@
     // Background View
     UILabel *label = [[UILabel alloc] initWithFrame:_collectionView.frame];
     [label setNumberOfLines:4];
-    [label setText:NSLocalizedString(@"NO_DATA_SCHEDULE", nil)];
+    [label setText:NSLocalizedString(@"NO_DATA_PHOTOCALL", nil)];
     [label setTextAlignment:NSTextAlignmentCenter];
     [label setTextColor:[UIColor tableViewBackgroundTextColor]];
     [label sizeToFit];

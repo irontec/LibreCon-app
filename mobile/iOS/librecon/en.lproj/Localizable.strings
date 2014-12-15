@@ -42,6 +42,7 @@
 "NO_DATA_LOCATION" = "No information about special locations at this moment.";
 "NO_DATA_MEETING" = "You have no meetings at this moment. Remember you can ask for them at Attendees section.";
 "NO_DATA_SPONSOR" = "No information available at this moment.";
+"NO_DATA_PHOTOCALL" = "No available images at this moment.";
 
 //LOGIN
 "BIENVENIDA" = "Welcome to LibreCon'14";

@@ -43,6 +43,7 @@
 "NO_DATA_LOCATION" = "Ez dago daturik kokapen bereziren inguruan une honetan.";
 "NO_DATA_MEETING" = "Ez daukazu bilerarik une honetan. Gogora ezazu Bisitariak atalean eska ditzakezula.";
 "NO_DATA_SPONSOR" = "Une honetan ez dago datu eskuragarririk.";
+"NO_DATA_PHOTOCALL" = "Ez dago argazkirik une honetan.";
 
 //LOGIN
 "BIENVENIDA" = "Ongi etorri LibreCon'14ra";
